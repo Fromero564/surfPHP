@@ -16,29 +16,29 @@
   <nav class="menu-noresponsive sticky">
       <ul class="navigation">
         <img
-          src="./photos/NukumoiRetroLogo.jpeg"
+          src="../photos/NukumoiRetroLogo.jpeg"
           alt="Logo"
           class="logo-surf"
         />
-        <li><a href="#">HOME</a></li>
-        <li><a href="/surf/Views/ourStory.php">OUR STORY</a></li>
+        <li><a href="/surfPHP/">HOME</a></li>
+        <li><a href="/surfPHP/Views/ourStory.php">OUR STORY</a></li>
         <li class="has-submenu">
           <input type="checkbox" id="surfLessonsToggle" class="toggle" />
           <label for="surfLessonsToggle" class="hoverable">
             <span class="hoverable">SURF LESSONS</span></label
           ><i class="fa-solid fa-angle-down"></i>
           <ul class="submenu">
-            <li><a href="/surf/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-            <li><a href="/surf/Views/privateLessons.php">PRIVATE LESSONS</a></li>
+            <li><a href="/surfPHP/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
+            <li><a href="/surfPHP/Views/privateLessons.php">PRIVATE LESSONS</a></li>
             <li>
-              <a href="/surf/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
+              <a href="/surfPHP/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
             </li>
-            <li><a href="/surf/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
+            <li><a href="/surfPHP/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
           </ul>
         </li>
-        <li><a href="/surf/Views/beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="/surf/Views/shop.php">SHOP</a></li>
-        <li><a href="/surf/Views/surfGuide.php">SURF GUIDE</a></li>
+        <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
+        <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
+        <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
       </ul>
     </nav>
 
@@ -48,25 +48,25 @@
       <i class="fas fa-times"></i>
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="/surf/Views/ourStory.php">OUR STORY</a></li>
+          <li><a href="/surfPHP/">HOME</a></li>
+          <li><a href="/surfPHP/Views/ourStory.php">OUR STORY</a></li>
           <li class="has-submenu">
             <input type="checkbox" id="surfLessonsToggle" class="toggle" />
             <label for="surfLessonsToggle" class="hoverable">
               <span class="hoverable">SURF LESSONS</span></label
             ><i class="fa-solid fa-angle-down"></i>
             <ul class="submenu">
-              <li><a href="/surf/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-              <li><a href="/surf/Views/privateLessons.php">PRIVATE LESSONS</a></li>
+              <li><a href="/surfPHP/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
+              <li><a href="/surfPHP/Views/privateLessons.php">PRIVATE LESSONS</a></li>
               <li>
-                <a href="/surf/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
+                <a href="/surfPHP/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
               </li>
-              <li><a href="/surf/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
+              <li><a href="/surfPHP/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
             </ul>
           </li>
-          <li><a href="/surf/Views/beachRental.php">BEACH RENTAL</a></li>
-          <li><a href="/surf/Views/shop.php">SHOP</a></li>
-          <li><a href="/surf/Views/surfGuide.php">SURF GUIDE</a></li>
+          <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
+          <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
+          <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
         </ul>
       </nav>
     </div>

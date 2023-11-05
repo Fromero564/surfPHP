@@ -243,21 +243,21 @@
           <img src="./photos/foto2.png" alt="Producto 1" />
           <div class="overlay">
             <h2 class="description">T-shirt Women</h2>
-            <a href="shop.html" class="button">Shop Now</a>
+            <a href="Views/shop.php" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/foto3.png" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">Hats</h2>
-            <a href="shop.html" class="button">Shop Now</a>
+            <a href="/surfPHP/Views/shop.php/#children-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/foto4.png" alt="Producto 3" />
           <div class="overlay">
             <h2 class="description">T-shirt Men</h2>
-            <a href="shop.html" class="button">Shop Now</a>
+            <a href="/surfPHP/Views/shop.php/#men-section" class="button">Shop Now</a>
           </div>
         </div>
       </div>
@@ -286,7 +286,7 @@
           ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
           ><i class="fa-solid fa-star"></i
         ></span>
-        <a href="https://g.co/kgs/Bgguqq">See this review in google</a>
+        <a href="https://g.co/kgs/Bgguqq" target="_blank">See this review in google</a>
       </div>
       <div class="card-review2">
         <p>
@@ -299,7 +299,7 @@
           ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
           ><i class="fa-solid fa-star"></i
         ></span>
-        <a href="https://g.co/kgs/p9tsp9">See this review in google</a>
+        <a href="https://g.co/kgs/p9tsp9" target="_blank">See this review in google</a>
       </div>
       <div class="card-review">
         <p>
@@ -313,7 +313,7 @@
           ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
           ><i class="fa-solid fa-star"></i
         ></span>
-        <a href="https://g.co/kgs/icTxon">See this review in google</a>
+        <a href="https://g.co/kgs/icTxon" target="_blank">See this review in google</a>
       </div>
       <div class="card-review2">
         <p>
@@ -326,7 +326,7 @@
           ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
           ><i class="fa-solid fa-star"></i
         ></span>
-        <a href="https://g.co/kgs/o1o5vT">See this review in google</a>
+        <a href="https://g.co/kgs/o1o5vT" target="_blank">See this review in google</a>
       </div>
     </section>
     <!--Carrousel para responsive-->
@@ -350,7 +350,7 @@
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
               ></span>
-              <a href="https://g.co/kgs/Bgguqq">See this review in google</a>
+              <a href="https://g.co/kgs/Bgguqq" target="_blank">See this review in google</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -366,7 +366,7 @@
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
               ></span>
-              <a href="https://g.co/kgs/p9tsp9">See this review in google</a>
+              <a href="https://g.co/kgs/p9tsp9" target="_blank">See this review in google</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -382,7 +382,7 @@
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
               ></span>
-              <a href="https://g.co/kgs/icTxon">See this review in google</a>
+              <a href="https://g.co/kgs/icTxon" target="_blank">See this review in google</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -397,7 +397,7 @@
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
               ></span>
-              <a href="https://g.co/kgs/o1o5vT">See this review in google</a>
+              <a href="https://g.co/kgs/o1o5vT" target="_blank">See this review in google</a>
             </div>
           </div>
         </div>
@@ -430,6 +430,7 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
+        target="_blank"
       ></iframe>
     </section>
   </body>

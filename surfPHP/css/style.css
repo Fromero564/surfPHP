@@ -470,6 +470,11 @@ i {
 
 }
 
+.card-section-shop{
+  display: flex;
+  background-color: red;
+}
+
 
 .card-shop {
 

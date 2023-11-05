@@ -19,25 +19,25 @@
           alt="Logo"
           class="logo-surf"
         />
-        <li><a href="#">HOME</a></li>
-        <li><a href="/surf/Views/ourStory.php">OUR STORY</a></li>
+        <li><a href="/surfPHP/">HOME</a></li>
+        <li><a href="/surfPHP/Views/ourStory.php">OUR STORY</a></li>
         <li class="has-submenu">
           <input type="checkbox" id="surfLessonsToggle" class="toggle" />
           <label for="surfLessonsToggle" class="hoverable">
             <span class="hoverable">SURF LESSONS</span></label
           ><i class="fa-solid fa-angle-down"></i>
           <ul class="submenu">
-            <li><a href="/surf/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-            <li><a href="/surf/Views/privateLessons.php">PRIVATE LESSONS</a></li>
+            <li><a href="/surfPHP/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
+            <li><a href="/surfPHP/Views/privateLessons.php">PRIVATE LESSONS</a></li>
             <li>
-              <a href="/surf/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
+              <a href="/surfPHP/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
             </li>
-            <li><a href="/surf/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
+            <li><a href="/surfPHP/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
           </ul>
         </li>
-        <li><a href="/surf/Views/beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="/surf/Views/shop.php">SHOP</a></li>
-        <li><a href="/surf/Views/surfGuide.php">SURF GUIDE</a></li>
+        <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
+        <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
+        <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
       </ul>
     </nav>
 
@@ -47,49 +47,85 @@
       <i class="fas fa-times"></i>
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="/surf/Views/ourStory.php">OUR STORY</a></li>
+          <li><a href="/surfPHP/">HOME</a></li>
+          <li><a href="/surfPHP/Views/ourStory.php">OUR STORY</a></li>
           <li class="has-submenu">
             <input type="checkbox" id="surfLessonsToggle" class="toggle" />
             <label for="surfLessonsToggle" class="hoverable">
               <span class="hoverable">SURF LESSONS</span></label
             ><i class="fa-solid fa-angle-down"></i>
             <ul class="submenu">
-              <li><a href="/surf/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-              <li><a href="/surf/Views/privateLessons.php">PRIVATE LESSONS</a></li>
+              <li><a href="/surfPHP/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
+              <li><a href="/surfPHP/Views/privateLessons.php">PRIVATE LESSONS</a></li>
               <li>
-                <a href="/surf/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
+                <a href="/surfPHP/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
               </li>
-              <li><a href="/surf/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
+              <li><a href="/surfPHP/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
             </ul>
           </li>
-          <li><a href="/surf/Views/beachRental.php">BEACH RENTAL</a></li>
-          <li><a href="/surf/Views/shop.php">SHOP</a></li>
-          <li><a href="/surf/Views/surfGuide.php">SURF GUIDE</a></li>
+          <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
+          <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
+          <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
         </ul>
       </nav>
     </div>
   <body>
     <div class="container-shop">
+<div id="men-section" class= "card-section-shop" style="display: flex;">
 
-    
 <?php
+
 require("../Model/Conexion.php");
 $con = new Conexion();
-$productos = $con->getProducts();
+$productosMen = $con->getProductsMen();
 
-foreach ($productos as $producto) {
+foreach ($productosMen as $productoMan) {
     echo '<div class="card-shop">';
-    echo '<img src="./photos/foto2.png" alt="Producto de Surf" />';
+    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
     echo '<hr class="divider" />';
-    echo '<h2>' . $producto["name"] . '</h2>';
-    echo '<p>' . $producto["colour"] . '</p>';
-    echo '<p class="price"> $' . $producto["price"] . '</p>';
+    echo '<h2>' . $productoMan["name"] . '</h2>';
+    echo '<p>' . $productoMan["colour"] . '</p>';
+    echo '<p class="price"> $' . $productoMan["price"] . '</p>';
+    echo '<p class="price"> $' . $productoMan["category"] . '</p>';
     echo '<a href="#" class="learn-more-button">Learn More</a>';
     echo '</div>';
 }
 ?>
+</div>
+<div id="women-section" class= "card-section-shop" style="display: flex;">
+<?php
+$productosWomen = $con->getProductsWomen();
 
+foreach ($productosWomen as $productoWoman) {
+    echo '<div class="card-shop">';
+    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    echo '<hr class="divider" />';
+    echo '<h2>' . $productoWoman["name"] . '</h2>';
+    echo '<p>' . $productoWoman["colour"] . '</p>';
+    echo '<p class="price"> $' . $productoWoman["price"] . '</p>';
+    echo '<p class="price"> $' . $productoWoman["category"] . '</p>';
+    echo '<a href="#" class="learn-more-button">Learn More</a>';
+    echo '</div>';
+}
+?>
+</div>
+<div id="children-section" class= "card-section-shop" style="display: flex;">
+<?php
+$productosChildren = $con->getProductsChildren();
+
+foreach ($productosChildren as $productoChild) {
+    echo '<div class="card-shop">';
+    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    echo '<hr class="divider" />';
+    echo '<h2>' . $productoChild["name"] . '</h2>';
+    echo '<p>' . $productoChild["colour"] . '</p>';
+    echo '<p class="price"> $' . $productoChild["price"] . '</p>';
+    echo '<p class="price"> $' . $productoChild["category"] . '</p>';
+    echo '<a href="#" class="learn-more-button">Learn More</a>';
+    echo '</div>';
+}
+?>
+</div>
 
     </div>
   </body>
