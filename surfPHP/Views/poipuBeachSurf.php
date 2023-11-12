@@ -38,7 +38,6 @@
         </li>
         <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
         <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
-        <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
       </ul>
     </nav>
 
@@ -66,7 +65,7 @@
           </li>
           <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
           <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
-          <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
+          
         </ul>
       </nav>
     </div>

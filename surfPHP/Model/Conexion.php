@@ -7,7 +7,7 @@ class Conexion{
         $this->con = new mysqli("localhost","root","","nukumoi_db");
     }
     public function getProductsMen(){
-        $query = $this ->con->query("SELECT * FROM productos WHERE category='hombre'");
+        $query = $this ->con->query("SELECT * FROM productos WHERE category='man'");
         
         $i = 0;
         $retorno = [];
@@ -19,7 +19,7 @@ class Conexion{
     }
 
     public function getProductsWomen(){
-        $query = $this ->con->query("SELECT * FROM productos WHERE category='mujer'");
+        $query = $this ->con->query("SELECT * FROM productos WHERE category='woman'");
         
         $i = 0;
         $retorno = [];
@@ -31,7 +31,7 @@ class Conexion{
     }
 
     public function getProductsChildren(){
-        $query = $this ->con->query("SELECT * FROM productos WHERE category='infante'");
+        $query = $this ->con->query("SELECT * FROM productos WHERE category='child'");
         
         $i = 0;
         $retorno = [];
@@ -41,6 +41,18 @@ class Conexion{
         }  
         return $retorno;
     }
+    public function getProductsHats(){
+        $query = $this ->con->query("SELECT * FROM productos WHERE category='hat'");
+        
+        $i = 0;
+        $retorno = [];
+        while($fila = $query->fetch_assoc()){   
+            $retorno[$i] = $fila;
+            $i++;
+        }  
+        return $retorno;
+    }
+
 
 }
 

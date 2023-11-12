@@ -37,7 +37,6 @@
         </li>
         <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
         <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
-        <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
       </ul>
     </nav>
 
@@ -65,7 +64,6 @@
           </li>
           <li><a href="/surfPHP/Views/beachRental.php">BEACH RENTAL</a></li>
           <li><a href="/surfPHP/Views/shop.php">SHOP</a></li>
-          <li><a href="/surfPHP/Views/surfGuide.php">SURF GUIDE</a></li>
         </ul>
       </nav>
     </div>
@@ -86,7 +84,7 @@ foreach ($productosMen as $productoMan) {
     echo '<h2>' . $productoMan["name"] . '</h2>';
     echo '<p>' . $productoMan["colour"] . '</p>';
     echo '<p class="price"> $' . $productoMan["price"] . '</p>';
-    echo '<p class="price"> $' . $productoMan["category"] . '</p>';
+    echo '<p> ' . $productoMan["category"] . '</p>';
     echo '<a href="#" class="learn-more-button">Learn More</a>';
     echo '</div>';
 }
@@ -103,7 +101,7 @@ foreach ($productosWomen as $productoWoman) {
     echo '<h2>' . $productoWoman["name"] . '</h2>';
     echo '<p>' . $productoWoman["colour"] . '</p>';
     echo '<p class="price"> $' . $productoWoman["price"] . '</p>';
-    echo '<p class="price"> $' . $productoWoman["category"] . '</p>';
+    echo '<p>' . $productoWoman["category"] . '</p>';
     echo '<a href="#" class="learn-more-button">Learn More</a>';
     echo '</div>';
 }
@@ -120,13 +118,29 @@ foreach ($productosChildren as $productoChild) {
     echo '<h2>' . $productoChild["name"] . '</h2>';
     echo '<p>' . $productoChild["colour"] . '</p>';
     echo '<p class="price"> $' . $productoChild["price"] . '</p>';
-    echo '<p class="price"> $' . $productoChild["category"] . '</p>';
+    echo '<p> ' . $productoChild["category"] . '</p>';
     echo '<a href="#" class="learn-more-button">Learn More</a>';
     echo '</div>';
 }
 ?>
 </div>
+<div id="hat-section" class= "card-section-shop" style="display: flex;">
+<?php
+$productosHats = $con->getProductsHats();
 
+foreach ($productosHats as $productoHat) {
+    echo '<div class="card-shop">';
+    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    echo '<hr class="divider" />';
+    echo '<h2>' . $productoHat["name"] . '</h2>';
+    echo '<p>' . $productoHat["colour"] . '</p>';
+    echo '<p class="price"> $' . $productoHat["price"] . '</p>';
+    echo '<p>' . $productoHat["category"] . '</p>';
+    echo '<a href="#" class="learn-more-button">Learn More</a>';
+    echo '</div>';
+}
+?>
+</div>
     </div>
   </body>
   <footer class="footer">
