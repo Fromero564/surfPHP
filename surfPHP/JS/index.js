@@ -14,14 +14,16 @@ window.addEventListener("scroll", function () {
   }
 });
 
-let slidePosition = 0;
-const slides = document.querySelectorAll(".slide");
-const totalSlides = slides.length;
+let sliderInner = document.querySelector(".slider--inner");
 
-function nextSlide() {
-  slides[slidePosition].style.display = "none";
-  slidePosition = (slidePosition + 1) % totalSlides;
-  slides[slidePosition].style.display = "block";
-}
+let images = sliderInner.querySelectorAll("img");
 
-setInterval(nextSlide, 3000);
+let index = 1;
+
+setInterval(function () {
+  let porcentage = index * -100;
+  sliderInner.style.transform = "translateX(" + porcentage + "%)";
+  if (index > images.length - 1) {
+    index = 0;
+  }
+}, 1000);

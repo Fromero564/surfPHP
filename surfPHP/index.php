@@ -62,7 +62,7 @@
      <!--start carrusel surf lessons -->
 
     <div class="carousel">
-  <div class="carousel-container">
+  <div class="carousel-container slider--inner">
     <div class="slide"><img src="./photos/foto1.png" alt="Imagen 1"></div>
     <div class="slide"><img src="./photos/foto2.png" alt="Imagen 2"></div>
     <div class="slide"><img src="./photos/foto3.png" alt="Imagen 3"></div>
