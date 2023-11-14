@@ -72,7 +72,7 @@
       </nav>
     </div>
     <div class="photo-poipu">
-      <img src="./photos/Webp.net-resizeimage.jpg" alt="" />
+      <img src="../photos/Webp.net-resizeimage.jpg" alt="" />
       <div class="text-img">
         <h1>SURF LESSONS</h1>
         <h2>
@@ -101,7 +101,7 @@
               </i>
             </div>
 
-            <img src="./photos/DSC06887.jpg" />
+            <img src="../photos/DSC06887.jpg" />
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
               <i class="fas fa-dollar-sign">100</i>
@@ -134,7 +134,7 @@
               </i>
             </div>
 
-            <img src="./photos/IMG_2720.JPG" />
+            <img src="../photos/IMG_2720.JPG" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
@@ -166,7 +166,7 @@
                 <p class="p-icons">1-4 PEOPLE</p>
               </i>
             </div>
-            <img src="./photos/Webp.net-resizeimage.jpg" />
+            <img src="../photos/Webp.net-resizeimage.jpg" />
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
               <i class="fas fa-dollar-sign">100</i>
@@ -198,7 +198,7 @@
                 <p class="p-icons">1-4 PEOPLE</p>
               </i>
             </div>
-            <img src="./photos/foto4.png" />
+            <img src="../photos/foto4.png" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
@@ -232,7 +232,7 @@
                 <p class="p-icons">1-4 PEOPLE</p>
               </i>
             </div>
-            <img src="./photos/foto4.png" />
+            <img src="../photos/foto4.png" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
@@ -266,7 +266,7 @@
                 <p class="p-icons">1-4 PEOPLE</p>
               </i>
             </div>
-            <img src="./photos/foto4.png" />
+            <img src="../photos/foto4.png" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>

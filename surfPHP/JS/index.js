@@ -14,10 +14,14 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const carousel = document.querySelector(".carousel-container");
+let slidePosition = 0;
+const slides = document.querySelectorAll(".slide");
+const totalSlides = slides.length;
 
-function slideNext() {
-  carousel.scrollLeft += carousel.clientWidth;
+function nextSlide() {
+  slides[slidePosition].style.display = "none";
+  slidePosition = (slidePosition + 1) % totalSlides;
+  slides[slidePosition].style.display = "block";
 }
 
-setInterval(slideNext, 3000);
+setInterval(nextSlide, 3000);
