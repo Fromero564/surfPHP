@@ -8,12 +8,273 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
 
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Tu Sitio Web</title>
   </head>
   <body>
-    lecciones de vida
+    <nav class="menu-noresponsive sticky">
+      <ul class="navigation">
+        <img
+          src="./photos/NukumoiRetroLogo.jpeg"
+          alt="Logo"
+          class="logo-surf"
+        />
+        <li><a href="#">HOME</a></li>
+        <li><a href="ourStory.html">OUR STORY</a></li>
+        <li><a href="surfLessons.html">SURF LESSONS</a></li>
+        <li><a href="beachRental.html">BEACH RENTAL</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="surfGuide.html">SURF GUIDE</a></li>
+      </ul>
+    </nav>
+
+    <div class="respmenu">
+      <input type="checkbox" />
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="ourStory.html">OUR STORY</a></li>
+          <li class="has-submenu">
+            <input type="checkbox" id="surfLessonsToggle" class="toggle" />
+            <label for="surfLessonsToggle" class="hoverable">
+              <span class="hoverable">SURF LESSONS</span></label
+            ><i class="fa-solid fa-angle-down"></i>
+            <ul class="submenu">
+              <li><a href="poipuBeachSurf.html">POIPU BEACH SURF</a></li>
+              <li><a href="privateLessons.html">PRIVATE LESSONS</a></li>
+              <li>
+                <a href="surfGuideForAdvanced.html">SURF GUIDE FOR ADVANCED</a>
+              </li>
+              <li><a href="rochelleBallard.html">ROCHELLE BALLARD</a></li>
+            </ul>
+          </li>
+          <li><a href="beachRental.html">BEACH RENTAL</a></li>
+          <li><a href="shop.html">SHOP</a></li>
+          <li><a href="surfGuide.html">SURF GUIDE</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="photo-poipu">
+      <img src="./photos/Webp.net-resizeimage.jpg" alt="" />
+      <div class="text-img">
+        <h1>SURF LESSONS</h1>
+        <h2>
+          Want to Learn to Surf? Our Private Surf Lessons are THE BEST on Kauai,
+          HI
+        </h2>
+        <p>
+          We are stoked you found us! Checkout the different class options
+          below, and don't hesitate to give us a call if you have any questions.
+        </p>
+      </div>
+    </div>
+    <section>
+      <div class="container-card">
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-4 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="./photos/DSC06887.jpg" />
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">100</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Poipu Beach Surf Lessons for Beginners</h3>
+            <p>
+              90 minutes including land lesson, water safety, and water time.
+              Poipu Beach Surf Lessons for Beginners offers an exciting and safe
+              introduction to the exhilarating world of surfing.
+            </p>
+
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+          </div>
+        </div>
+
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-4 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="./photos/IMG_2720.JPG" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">100</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Private Lessons for Beginners</h3>
+            <p>
+              (taking your surfing to the next level) 90 minutes including land
+              lesson, water safety, and surf time. Our skilled and experienced
+              instructors ensure one on one water safety, great moment
+            </p>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+          </div>
+        </div>
+
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-4 PEOPLE</p>
+              </i>
+            </div>
+            <img src="./photos/Webp.net-resizeimage.jpg" />
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">100</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Surf Guide for advanced surfers only</h3>
+            <p>
+              Our experienced local surf instructor will take you to the best
+              wave on that day, according to the swell, winds, and tide for your
+              desired wave and ability. This is for Intermediate and Advanced
+              surfing only.
+            </p>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+          </div>
+        </div>
+
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-4 PEOPLE</p>
+              </i>
+            </div>
+            <img src="./photos/foto4.png" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">100</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Rochelle Ballard Surf Experience</h3>
+            <p>
+              Surf with Kauai’s legendary elite professional female surfer,
+              Rochelle Ballard, stunt double and starred in Blue Crush, Master’s
+              World Champion, runner up to the WSL World Title, and multiple
+              championship event winner.
+            </p>
+            <div>
+              <a href=""> Book Now</a>
+              <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-4 PEOPLE</p>
+              </i>
+            </div>
+            <img src="./photos/foto4.png" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">100</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Rochelle Ballard Surf Experience</h3>
+            <p>
+              Surf with Kauai’s legendary elite professional female surfer,
+              Rochelle Ballard, stunt double and starred in Blue Crush, Master’s
+              World Champion, runner up to the WSL World Title, and multiple
+              championship event winner.
+            </p>
+            <div>
+              <a href=""> Book Now</a>
+              <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-4 PEOPLE</p>
+              </i>
+            </div>
+            <img src="./photos/foto4.png" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">100</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Rochelle Ballard Surf Experience</h3>
+            <p>
+              Surf with Kauai’s legendary elite professional female surfer,
+              Rochelle Ballard, stunt double and starred in Blue Crush, Master’s
+              World Champion, runner up to the WSL World Title, and multiple
+              championship event winner.
+            </p>
+            <div>
+              <a href=""> Book Now</a>
+              <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
   <footer class="footer">
     <div class="column1">

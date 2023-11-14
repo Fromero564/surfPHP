@@ -33,20 +33,7 @@
         <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
         <li><a href="#">HOME</a></li>
         <li><a href="Views/ourStory.php">OUR STORY</a></li>
-        <li class="has-submenu">
-          <input type="checkbox" id="surfLessonsToggle" class="toggle" />
-          <label for="surfLessonsToggle" class="hoverable">
-            <span class="hoverable">SURF LESSONS</span></label
-          ><i class="fa-solid fa-angle-down"></i>
-          <ul class="submenu">
-            <li><a href="Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-            <li><a href="Views/privateLessons.php">PRIVATE LESSONS</a></li>
-            <li>
-              <a href="Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
-            </li>
-            <li><a href="Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
-          </ul>
-        </li>
+        <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
         <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
         <li><a href="Views/shop.php">SHOP</a></li>
       </ul>
@@ -84,141 +71,21 @@
       <h1>Rochelle Ballard Surf Experience ~ Kauai's Best Surf School</h1>
       <a href="surfLessons.html" class="book-now-button">BOOK NOW</a>
     </section>
+     <!--start carrusel surf lessons -->
 
-    <div class="container-card">
-      <div class="card card2 servicios-div">
-        <figure class="figure-container">
-          <div class="overlay-icons">
-            <i class="fas fa-clock time-icon">
-              <p class="p-icons">90 MINUTES</p>
-            </i>
-            <i class="fas fa-user ages-icon">
-              <p class="p-icons">ALL AGES</p>
-            </i>
-            <i class="fas fa-users people-icon">
-              <p class="p-icons">1-4 PEOPLE</p>
-            </i>
-          </div>
+    <div class="carousel">
+  <div class="carousel-container">
+    <div class="slide"><img src="imagen1.jpg" alt="Imagen 1"></div>
+    <div class="slide"><img src="imagen2.jpg" alt="Imagen 2"></div>
+    <div class="slide"><img src="imagen3.jpg" alt="Imagen 3"></div>
+    <!-- Agrega más imágenes aquí -->
+  </div>
+</div>
 
-          <img src="./photos/DSC06887.jpg" />
-          <div class="dollar-icon">
-            <p class="from-text">FROM</p>
-            <i class="fas fa-dollar-sign">100</i>
-          </div>
-        </figure>
-        <div class="contenido">
-          <h3>Poipu Beach Surf Lessons for Beginners</h3>
-          <p>
-            90 minutes including land lesson, water safety, and water time.
-            Poipu Beach Surf Lessons for Beginners offers an exciting and safe
-            introduction to the exhilarating world of surfing.
-          </p>
 
-          <a href=""> Book Now</a>
-          <a href="poipuBeachSurf.html"> Learn More</a>
-        </div>
-      </div>
 
-      <div class="card card2 servicios-div">
-        <figure class="figure-container">
-          <div class="overlay-icons">
-            <i class="fas fa-clock time-icon">
-              <p class="p-icons">90 MINUTES</p>
-            </i>
-            <i class="fas fa-user ages-icon">
-              <p class="p-icons">ALL AGES</p>
-            </i>
-            <i class="fas fa-users people-icon">
-              <p class="p-icons">1-4 PEOPLE</p>
-            </i>
-          </div>
 
-          <img src="./photos/IMG_2720.JPG" />
-
-          <div class="dollar-icon">
-            <p class="from-text">FROM</p>
-            <i class="fas fa-dollar-sign">100</i>
-          </div>
-        </figure>
-        <div class="contenido">
-          <h3>Private Lessons for Beginners</h3>
-          <p>
-            (taking your surfing to the next level) 90 minutes including land
-            lesson, water safety, and surf time. Our skilled and experienced
-            instructors ensure one on one water safety, great moment
-          </p>
-          <a href=""> Book Now</a>
-          <a href="privateLessons.html"> Learn More</a>
-        </div>
-      </div>
-
-      <div class="card card2 servicios-div">
-        <figure class="figure-container">
-          <div class="overlay-icons">
-            <i class="fas fa-clock time-icon">
-              <p class="p-icons">90 MINUTES</p>
-            </i>
-            <i class="fas fa-user ages-icon">
-              <p class="p-icons">ALL AGES</p>
-            </i>
-            <i class="fas fa-users people-icon">
-              <p class="p-icons">1-4 PEOPLE</p>
-            </i>
-          </div>
-          <img src="./photos/Webp.net-resizeimage.jpg" />
-          <div class="dollar-icon">
-            <p class="from-text">FROM</p>
-            <i class="fas fa-dollar-sign">100</i>
-          </div>
-        </figure>
-        <div class="contenido">
-          <h3>Surf Guide for advanced surfers only</h3>
-          <p>
-            Our experienced local surf instructor will take you to the best wave
-            on that day, according to the swell, winds, and tide for your
-            desired wave and ability. This is for Intermediate and Advanced
-            surfing only.
-          </p>
-          <a href=""> Book Now</a>
-          <a href="surfGuideForAdvanced.html"> Learn More</a>
-        </div>
-      </div>
-
-      <div class="card card2 servicios-div">
-        <figure class="figure-container">
-          <div class="overlay-icons">
-            <i class="fas fa-clock time-icon">
-              <p class="p-icons">90 MINUTES</p>
-            </i>
-            <i class="fas fa-user ages-icon">
-              <p class="p-icons">ALL AGES</p>
-            </i>
-            <i class="fas fa-users people-icon">
-              <p class="p-icons">1-4 PEOPLE</p>
-            </i>
-          </div>
-          <img src="./photos/foto4.png" />
-
-          <div class="dollar-icon">
-            <p class="from-text">FROM</p>
-            <i class="fas fa-dollar-sign">100</i>
-          </div>
-        </figure>
-        <div class="contenido">
-          <h3>Rochelle Ballard Surf Experience</h3>
-          <p>
-            Surf with Kauai’s legendary elite professional female surfer,
-            Rochelle Ballard, stunt double and starred in Blue Crush, Master’s
-            World Champion, runner up to the WSL World Title, and multiple
-            championship event winner.
-          </p>
-          <div>
-            <a href=""> Book Now</a>
-            <a href="rochelleBallard.html"> Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
+   <!--finish carrusel lessons-->
     <div class="row align-center" id="row-356844962">
       <div id="col-2017702317" class="col medium-7 small-12 large-7">
         <div class="col-inner text-center">

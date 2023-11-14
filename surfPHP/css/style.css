@@ -225,8 +225,8 @@ nav {
 
 .card {
   
- width: 23%;
-  margin: 10px;
+  width: 25%;
+  margin: 17px;
   flex-direction: column;
   margin-bottom: 70px;
   border-radius: 20px;
@@ -858,6 +858,29 @@ i {
   
 
 }
+
+
+/*carrusel surf lessons*/
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
 
 /*Responsive Media Queries*/
 @media(max-width:900px) {

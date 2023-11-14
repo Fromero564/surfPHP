@@ -71,7 +71,7 @@
       </nav>
     </div>
     <div class="photo-poipu">
-      <img src="./photos/Webp.net-resizeimage.jpg" alt="" />
+      <img src="../photos/Webp.net-resizeimage.jpg" alt="" />
       <div class="text-img">
         <h1>SURF LESSONS</h1>
         <h2>
