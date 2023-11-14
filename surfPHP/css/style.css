@@ -874,6 +874,10 @@ i {
   overflow: hidden;
 }
 
+.slider--inner img{
+  width: 100%;
+}
+
 /*Responsive Media Queries*/
 @media(max-width:900px) {
   .menu-noresponsive {
