@@ -47,20 +47,8 @@
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="Views/ourStory.php">OUR STORY</a></li>
-          <li class="has-submenu">
-            <input type="checkbox" id="surfLessonsToggle" class="toggle" />
-            <label for="surfLessonsToggle" class="hoverable">
-              <span class="hoverable">SURF LESSONS</span></label
-            ><i class="fa-solid fa-angle-down"></i>
-            <ul class="submenu">
-              <li><a href="Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-              <li><a href="Views/privateLessons.php">PRIVATE LESSONS</a></li>
-              <li>
-                <a href="Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
-              </li>
-              <li><a href="Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
-            </ul>
-          </li>
+           <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
+         
           <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
           <li><a href="Views/shop.php">SHOP</a></li>
         </ul>
@@ -75,10 +63,10 @@
 
     <div class="carousel">
   <div class="carousel-container">
-    <div class="slide"><img src="imagen1.jpg" alt="Imagen 1"></div>
-    <div class="slide"><img src="imagen2.jpg" alt="Imagen 2"></div>
-    <div class="slide"><img src="imagen3.jpg" alt="Imagen 3"></div>
-    <!-- Agrega más imágenes aquí -->
+    <div class="slide"><img src="./photos/foto1.png" alt="Imagen 1"></div>
+    <div class="slide"><img src="./photos/foto2.png" alt="Imagen 2"></div>
+    <div class="slide"><img src="./photos/foto3.png" alt="Imagen 3"></div>
+   
   </div>
 </div>
 
