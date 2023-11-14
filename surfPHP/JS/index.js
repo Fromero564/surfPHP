@@ -15,10 +15,9 @@ window.addEventListener("scroll", function () {
 });
 
 const carousel = document.querySelector(".carousel-container");
-let slidePosition = 0;
-const totalSlides = document.querySelectorAll(".slide").length;
 
-setInterval(() => {
-  slidePosition = (slidePosition + 1) % totalSlides;
-  carousel.style.transform = `translateX(-${slidePosition * 100}%)`;
-}, 3000); // Cambia esta cifra para ajustar la velocidad del deslizamiento
+function slideNext() {
+  carousel.scrollLeft += carousel.clientWidth;
+}
+
+setInterval(slideNext, 3000);

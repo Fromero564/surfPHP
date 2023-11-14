@@ -22,8 +22,8 @@
     <!--Our JS-->
     <script src="./JS/index.js"></script>
     <!--Our CSS-->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Tu Sitio Web</title>
   </head>
   <body>
