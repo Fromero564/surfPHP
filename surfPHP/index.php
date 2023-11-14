@@ -19,6 +19,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--Our JS-->
+    <script src="./JS/index.js"></script>
     <!--Our CSS-->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -26,13 +28,9 @@
   </head>
 
   <body>
-    <nav class="menu-noresponsive sticky">
-      <ul class="navigation">
-        <img
-          src="./photos/NukumoiRetroLogo.jpeg"
-          alt="Logo"
-          class="logo-surf"
-        />
+    <nav class="menu-noresponsive sticky" id="navnoresponsive" >
+      <ul class="navigation" id="mainMenu">
+        <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
         <li><a href="#">HOME</a></li>
         <li><a href="Views/ourStory.php">OUR STORY</a></li>
         <li class="has-submenu">
@@ -82,7 +80,7 @@
       </nav>
     </div>
 
-    <section class="promo-box">
+    <section class="promo-box" id="promoSection">
       <h1>Rochelle Ballard Surf Experience ~ Kauai's Best Surf School</h1>
       <a href="surfLessons.html" class="book-now-button">BOOK NOW</a>
     </section>
