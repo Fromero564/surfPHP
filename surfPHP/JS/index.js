@@ -5,7 +5,8 @@ window.addEventListener("scroll", function () {
   document.getElementById("promoSection").style.height =
     promoSectionHeight + "vh";
 
-  if (promoSectionHeight === 100) {
+  /*if (promoSectionHeight === 100) {*/
+  if (promoSectionHeight >= 1) {
     document.getElementById("mainMenu").style.display = "none";
     document.getElementById("navnoresponsive").style.display = "none";
   } else {
@@ -13,6 +14,7 @@ window.addEventListener("scroll", function () {
     document.getElementById("navnoresponsive").style.display = "flex";
   }
 });
+
 
 let sliderInner = document.querySelector(".slider--inner");
 

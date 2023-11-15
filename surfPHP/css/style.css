@@ -48,14 +48,6 @@ nav {
   transition: color 0.3s;
 }
 
-.navigation a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
 
 .navigation a:hover {
   color: #ff9900;
@@ -69,6 +61,50 @@ nav {
   border-radius: 50%;
 }
 
+/*Menu sobre video*/
+.menuvideo{
+  width: 100%;
+  position: absolute;
+  display:flex;
+  justify-content: space-around;
+}
+
+.navegationmenuvideo{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+
+}
+
+
+.navegationmenuvideo li {
+  margin: 15px;
+
+}
+
+.navegationmenuvideo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+.navegationmenuvideo a:hover {
+  color: #ff9900;
+}
+
+.logomenuvideo{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 /* nav con posición fija*/
 
 
