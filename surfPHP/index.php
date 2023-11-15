@@ -66,8 +66,8 @@
      <img src="./photos/foto2.png" alt="Imagen 2">
      <img src="./photos/foto3.png" alt="Imagen 3">
    
-  </div>
-  </div>
+     </div>
+</div>
 
 
 
