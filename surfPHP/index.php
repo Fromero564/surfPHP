@@ -19,8 +19,9 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <!--Our JS-->
-    <script src="./JS/index.js"></script>
+          <!--Our JS-->
+          <script src="./JS/index.js"></script>
+
     <!--Our CSS-->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -54,6 +55,18 @@
         </ul>
       </nav>
     </div>
+    <div  class="menuvideo">
+    <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logomenuvideo" />
+    <ul class="navegationmenuvideo" id="">
+      
+        <li><a href="#">HOME</a></li>
+        <li><a href="Views/ourStory.php">OUR STORY</a></li>
+        <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
+        <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
+        <li><a href="Views/shop.php">SHOP</a></li>
+      </ul>
+      <img src="./photos/logosurf.png" alt="Logo" class="logomenuvideo" />
+      </div>
 
     <section class="promo-box" id="promoSection">
       <h1>Rochelle Ballard Surf Experience ~ Kauai's Best Surf School</h1>
@@ -290,6 +303,8 @@
         target="_blank"
       ></iframe>
     </section>
+
+
   </body>
   <footer>
     <div class="footer">
