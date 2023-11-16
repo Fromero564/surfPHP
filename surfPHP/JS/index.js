@@ -1,4 +1,13 @@
 window.addEventListener("scroll", function () {
+  var windowWidth = window.innerWidth;
+
+
+  if (windowWidth < 800) {
+  
+    document.getElementById("mainMenu").style.display = "none";
+    document.getElementById("navnoresponsive").style.display = "none";
+    return; 
+  }
   var scrollY = window.scrollY;
   var promoSectionHeight = 100 - scrollY;
 

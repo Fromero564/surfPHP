@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <nav class="menu-noresponsive sticky" id="navnoresponsive" >
+    <nav class="menu-noresponsiveIndex sticky" id="navnoresponsive" >
       <ul class="navigation" id="mainMenu">
         <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
         <li><a href="#">HOME</a></li>
