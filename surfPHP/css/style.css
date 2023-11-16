@@ -307,9 +307,9 @@ nav {
 }
 
 
-
 .contenido p {
   max-width: 400px;
+  margin-bottom: 70px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -334,11 +334,24 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: contrast(110%);
+  
 }
 
 .card .servicios-div {
   position: relative;
 }
+
+
+.caca {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+ 
+}
+
 
 .iconos {
   position: absolute;
@@ -355,6 +368,7 @@ nav {
 .figure-container {
   position: relative;
   display: inline-block;
+
 }
 
 .overlay-icons {
@@ -898,21 +912,46 @@ i {
 
 /*carrusel surf lessons*/
 
-.slider--inner{
- display: flex;
- flex-direction: row;
- flex-wrap: nowrap;
- transition: all 0.3s ease-in;
 
 
+body {
+  margin: 0;
 }
-.slider{
+
+.slider-frame {
+  width: 100vw; 
   overflow: hidden;
 }
 
-.slider img{
-  width: 100%;
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400vw; 
+  animation: slide 16s infinite linear;
 }
+
+.slider-frame li {
+  list-style: none;
+  width: 100vw; 
+  height: 800px; 
+}
+
+.slider-frame img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: -300vw; 
+  }
+}
+
+
 
 /*Responsive Media Queries*/
 @media(max-width:900px) {

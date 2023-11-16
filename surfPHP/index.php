@@ -73,16 +73,16 @@
       <a href="surfLessons.html" class="book-now-button">BOOK NOW</a>
     </section>
      <!--start carrusel surf lessons -->
-<div class='slider'>
-    <div class="slider--inner">
-     <img src="./photos/foto1.png" alt="Imagen 1">
-     <img src="./photos/foto2.png" alt="Imagen 2">
-     <img src="./photos/foto3.png" alt="Imagen 3">
-   
-     </div>
+
+<div class='slider-frame'> 
+  <ul>
+    <li><img src="./photos/slide1.jpg" alt=""></li>
+    <li><img src="./photos/slide2.jpg" alt=""></li>
+    <li><img src="./photos/slide3.jpg" alt=""></li>
+    <li><img src="./photos/slide4.jpg" alt=""></li>
+    
+     </ul>
 </div>
-
-
 
 
 
@@ -349,4 +349,5 @@
       </div>
     </div>
   </footer>
+  
 </html>
