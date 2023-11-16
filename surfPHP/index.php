@@ -75,17 +75,28 @@
     </section>
      <!--start carrusel surf lessons -->
 
-<div class='slider-frame'> 
+
+
+<div class='slider-frame'>
+  <div class="overlay">
+    <h3 class='orange'>"Surf Lessons & Guide Surf Experience the best on Kauai for all the levels"</h3>
+    <div class='button-container'><button class="btn">BOOK NOW</button>
+    <button class="btn">LEARN MORE</button>
+  </div>
+  </div>
   <ul>
-    <li><img src="./photos/slide1.jpg" alt=""></li>
-    <li><img src="./photos/slide2.jpg" alt=""></li>
+    <li><img src="./photos/slide1.jpg" alt="">
+    </li>
+     <li><img src="./photos/slide2.jpg" alt=""></li>
     <li><img src="./photos/slide3.jpg" alt=""></li>
-    <li><img src="./photos/slide4.jpg" alt=""></li>
-    
-     </ul>
+    <li><img src="./photos/slide6.jpg" alt=""></li>
+    <li><img src="./photos/slide7.jpg" alt=""></li>
+    <li><img src="./photos/slide8.jpg" alt=""></li>
+    <li><img src="./photos/slide9.jpg" alt=""></li>
+    <li><img src="./photos/slide10.jpg" alt=""></li>
+    <li><img src="./photos/slide11.jpg" alt=""></li>
+  </ul>
 </div>
-
-
 
    <!--finish carrusel lessons-->
     <div class="row align-center" id="row-356844962">
