@@ -27,15 +27,15 @@
     <title>Tu Sitio Web</title>
   </head>
   <body>
-  <nav class="menu-noresponsiveIndex sticky" id="navnoresponsive" >
+  <nav class="menu-noresponsive sticky" id="navnoresponsive" >
       <ul class="navigation" id="mainMenu">
-        <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
+        <img src="../photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
         <li><a href="#">HOME</a></li>
         <li><a href="Views/ourStory.php">OUR STORY</a></li>
         <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
         <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
         <li><a href="Views/shop.php">SHOP</a></li>
-        <img src="./photos/logosurf.png" alt="Logo" class="logo-surf2" />
+        <img src="../photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
 
