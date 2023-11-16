@@ -37,6 +37,7 @@
         <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
         <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
         <li><a href="Views/shop.php">SHOP</a></li>
+        <img src="./photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
 

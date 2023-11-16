@@ -71,7 +71,7 @@
             <p>
              Shared  lessons with other parties close to the shore in Sunny Poipu beach. Catch waves and make new friends! 
             </p>
-            <div class='caca'>
+            <div class='buttonBL'>
             <a href=""> Book Now</a>
             <a href=""> Learn More</a>
             </div>
@@ -105,7 +105,7 @@
               This is our most popular. Perfect for small groups, and the whole 
               family to enjoy the ocean and riding waves together! A family that surfs together stays together!
             </p>
-            <div class='caca'>
+            <div class='buttonBL'>
             <a href=""> Book Now</a>
             <a href=""> Learn More</a>
             </div>
@@ -137,7 +137,7 @@
          We love sharing with the keiki! We give special attention focusing on the safety,
           fun, and sensitivity of young children.
             </p>
-            <div class='caca'>
+            <div class='buttonBL'>
             <a href=""> Book Now</a>
             <a href=""> Learn More</a>
           </div>
@@ -171,12 +171,13 @@
              One on one guidance with our skilled instructors gives you personalized
               attention for safety, more opportunity to ride waves and progress your surfing ability .
             </p>
-            <div class='caca'>
+            <div class='buttonBL'>
               <a href=""> Book Now</a>
               <a href=""> Learn More</a>
             </div>
           </div>
         </div>
+
         <div class="card card2 servicios-div">
           <figure class="figure-container">
             <div class="overlay-icons">
@@ -203,12 +204,13 @@
               Surf with Kauai’s legendary elite professional female surfer.
                All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
             </p>
-            <div class='caca'>
+            <div class='buttonBL'>
               <a href=""> Book Now</a>
               <a href=""> Learn More</a>
             </div>
           </div>
         </div>
+
         <div class="card card2 servicios-div">
           <figure class="figure-container">
             <div class="overlay-icons">
@@ -237,12 +239,13 @@
               World Champion, runner up to the WSL World Title, and multiple
               championship event winner.
             </p>
-            <div class='caca'>
+            <div class='buttonBL'>
               <a href=""> Book Now</a>
               <a href=""> Learn More</a>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   </body>
