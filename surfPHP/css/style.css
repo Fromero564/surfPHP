@@ -917,33 +917,33 @@ i {
 /*carrusel surf lessons*/
 
 
-
 body {
   margin: 0;
+  overflow-x: hidden; 
 }
 
 .slider-frame {
-  width: 100vw; 
+  width: 100%; 
   overflow: hidden;
 }
 
 .slider-frame ul {
   display: flex;
   padding: 0;
-  width: 400vw; 
-  animation: slide 16s infinite linear;
+  width: 500%; 
+  animation: slide 28s infinite linear;
 }
 
 .slider-frame li {
   list-style: none;
-  width: 100vw; 
-  height: 800px; 
+  width: 100%;
 }
 
 .slider-frame img {
   width: 100%; 
   height: 100%; 
-  object-fit: cover; 
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 @keyframes slide {
@@ -951,9 +951,62 @@ body {
     margin-left: 0%;
   }
   100% {
-    margin-left: -300vw; 
+    margin-left: -200%; 
   }
 }
+
+
+.slider-frame {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  background-color: transparent; 
+}
+
+.overlay h2 {
+  margin-bottom: 10px;
+}
+.button-container {
+  display: flex;
+  gap: 10px; 
+  justify-content: center; 
+  margin-top: 15px;
+}
+
+.btn {
+ 
+  background-color: #ff9900;
+  color: #fff;
+  padding: 15px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background-color: #ff7700;
+}
+
+.orange{
+  color: white; /* Color de las letras naranjas */
+  text-shadow: -1px -1px 0 #ff7700,  
+               1px -1px 0 #ff7700,  
+              -1px 1px 0 #ff7700,  
+               1px 1px 0 #ff7700; /* Simulación de borde con text-shadow */
+}
+
 
 
 
@@ -1090,8 +1143,8 @@ body {
     margin-bottom: 30px;
     border-radius: 20px;
     overflow: hidden;
-    background: #3ea6a1;
-    box-shadow: 0px 1px 10px rgb(105, 189, 164);
+    background: #ff7700;
+    box-shadow: 0px 1px 10px #ff7700(189, 160, 105);
     cursor: default;
     transition: all 400ms ease;
   }
@@ -1152,5 +1205,37 @@ body {
     flex: 0 0 100%;
     scroll-snap-align: start;
   }
+   .overlay {
+    position: absolute;
+    top: calc(50% - 100px); /* Ajusta la posición verticalmente */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: transparent; 
+    width: 100%;
+  }
+.overlay h3 {
+  width: 65%;
+    font-size: 13px; /* Reducir más el tamaño del texto */
+    margin: 9px; /* Agregar margen alrededor del texto */
+  }
+
+ .button-container {
+    display: flex; /* Mostrar los botones en línea */
+    justify-content: center; /* Centrar los botones horizontalmente */
+    align-items: center; /* Centrar los botones verticalmente */
+    gap: 10px; /* Espacio entre los botones */
+  }
+
+ 
+  .btn {
+    width: 65%; /* Reducir el ancho de los botones */
+    padding: 5px; /* Reducir el espacio interno de los botones */
+    height: 43px; /* Establecer una altura fija para ambos botones */
   
+  font-size: 12px;
+  }
+
 }
