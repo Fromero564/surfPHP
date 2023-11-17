@@ -16,10 +16,10 @@
   <ul class="navigation" id="mainMenu">
         <img src="../photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
         <li><a href="../index.php">HOME</a></li>
-        <li><a href="Views/ourStory.php">OUR STORY</a></li>
-        <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
-        <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="Views/shop.php">SHOP</a></li>
+        <li><a href="./ourStory.php">OUR STORY</a></li>
+        <li><a href="./surfLessons.php">SURF LESSONS</a></li>
+        <li><a href="./beachRental.php">BEACH RENTAL</a></li>
+        <li><a href="./shop.php">SHOP</a></li>
         <img src="../photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -31,23 +31,23 @@
       <nav>
         <ul>
           <li><a href="../index.php">HOME</a></li>
-          <li><a href="/Views/ourStory.php">OUR STORY</a></li>
+          <li><a href="./ourStory.php">OUR STORY</a></li>
           <li class="has-submenu">
             <input type="checkbox" id="surfLessonsToggle" class="toggle" />
             <label for="surfLessonsToggle" class="hoverable">
               <span class="hoverable">SURF LESSONS</span></label
             ><i class="fa-solid fa-angle-down"></i>
             <ul class="submenu">
-              <li><a href="/Views/poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-              <li><a href="/Views/privateLessons.php">PRIVATE LESSONS</a></li>
+              <li><a href="./poipuBeachSurf.php">POIPU BEACH SURF</a></li>
+              <li><a href="./privateLessons.php">PRIVATE LESSONS</a></li>
               <li>
-                <a href="/Views/surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
+                <a href="./surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
               </li>
-              <li><a href="/Views/rochelleBallard.php">ROCHELLE BALLARD</a></li>
+              <li><a href="./rochelleBallard.php">ROCHELLE BALLARD</a></li>
             </ul>
           </li>
-          <li><a href="/Views/beachRental.php">BEACH RENTAL</a></li>
-          <li><a href="/Views/shop.php">SHOP</a></li>
+          <li><a href="./beachRental.php">BEACH RENTAL</a></li>
+          <li><a href="./shop.php">SHOP</a></li>
         </ul>
       </nav>
     </div>

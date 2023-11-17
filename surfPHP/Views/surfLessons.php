@@ -31,10 +31,10 @@
       <ul class="navigation" id="mainMenu">
         <img src="../photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
         <li><a href="../index.php">HOME</a></li>
-        <li><a href="Views/ourStory.php">OUR STORY</a></li>
-        <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
-        <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="Views/shop.php">SHOP</a></li>
+        <li><a href="./ourStory.php">OUR STORY</a></li>
+        <li><a href="./surfLessons.php">SURF LESSONS</a></li>
+        <li><a href="./beachRental.php">BEACH RENTAL</a></li>
+        <li><a href="./shop.php">SHOP</a></li>
         <img src="../photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -46,11 +46,11 @@
       <nav>
         <ul>
           <li><a href="../index.php">HOME</a></li>
-          <li><a href="Views/ourStory.php">OUR STORY</a></li>
-           <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
+          <li><a href="./ourStory.php">OUR STORY</a></li>
+           <li><a href="./surfLessons.php">SURF LESSONS</a></li>
          
-          <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
-          <li><a href="Views/shop.php">SHOP</a></li>
+          <li><a href="./beachRental.php">BEACH RENTAL</a></li>
+          <li><a href="./shop.php">SHOP</a></li>
         </ul>
       </nav>
     </div>
@@ -145,10 +145,10 @@
                 <p class="p-icons">90 MINUTES</p>
               </i>
               <i class="fas fa-user ages-icon">
-                <p class="p-icons">9 and under</p>
+                <p class="p-icons">9 AND UNDER</p>
               </i>
               <i class="fas fa-users people-icon">
-                <p class="p-icons">2 minimum</p>
+                <p class="p-icons">2 MINIMUM</p>
               </i>
             </div>
             <img src="../photos/KidsPrivate.jpg" />
