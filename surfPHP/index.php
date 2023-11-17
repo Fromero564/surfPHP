@@ -32,7 +32,7 @@
     <nav class="menu-noresponsiveIndex sticky" id="navnoresponsive" >
       <ul class="navigation" id="mainMenu">
         <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
-        <li><a href="#">HOME</a></li>
+        <li><a href="index.php">HOME</a></li>
         <li><a href="Views/ourStory.php">OUR STORY</a></li>
         <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
         <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
