@@ -48,7 +48,6 @@
           <li><a href="../index.php">HOME</a></li>
           <li><a href="./ourStory.php">OUR STORY</a></li>
            <li><a href="./surfLessons.php">SURF LESSONS</a></li>
-         
           <li><a href="./beachRental.php">BEACH RENTAL</a></li>
           <li><a href="./shop.php">SHOP</a></li>
         </ul>
@@ -86,7 +85,7 @@
               </i>
             </div>
 
-            <img src="../photos/PrivateGroup.jpg" />
+            <img src="../photos/PrivateGroup.jpeg" />
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
               <i class="fas fa-dollar-sign">90</i>
@@ -118,7 +117,7 @@
               </i>
             </div>
 
-            <img src="../photos/OhanaPrivate.JPG" />
+            <img src="../photos/OhanaPrivate.jpeg" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
@@ -151,7 +150,7 @@
                 <p class="p-icons">2 MINIMUM</p>
               </i>
             </div>
-            <img src="../photos/KidsPrivate.jpg" />
+            <img src="../photos/KidsPrivatelLessons.jpg" />
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
               <i class="fas fa-dollar-sign">125</i>
@@ -184,7 +183,7 @@
                 <p class="p-icons">1-2</p>
               </i>
             </div>
-            <img src="../photos/PrivateSurfLessons.JPG" />
+            <img src="../photos/PrivateSurfLessons.jpeg" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>

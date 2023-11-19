@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Tu Sitio Web</title>
   </head>
+
   <nav class="menu-noresponsive sticky" id="menu-noresponsive">
   <ul class="navigation" id="mainMenu">
         <img src="../photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
