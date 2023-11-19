@@ -69,6 +69,13 @@ nav {
   border-radius: 50%;
 }
 
+.logo-surffooter {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /*Menu sobre video*/
 .menuvideo{
   width: 100vw;
@@ -456,6 +463,12 @@ nav {
 
 
 /*footer*/
+.column2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .footer {
   background-color: #3ea6a1;
   display: flex;
@@ -629,6 +642,9 @@ i {
 
 
 /*seccion product*/
+.shop-responsive{
+  display: none;
+}
 
 .photo-container {
   display: flex;
@@ -929,13 +945,15 @@ body {
 
 .slider-frame {
   width: 100%; 
+  height: 600px;
   overflow: hidden;
 }
 
 .slider-frame ul {
   display: flex;
   padding: 0;
-  width: 500%; 
+  width: 900%; /* Adjusted width to accommodate the number of slides */
+  height: 100%;
   animation: slide 28s infinite linear;
 }
 
@@ -965,18 +983,24 @@ body {
   position: relative;
 }
 
-.overlay {
+.overlayslide {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   z-index: 1;
-  background-color: transparent; 
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.overlay h2 {
+.overlayslide h2 {
   margin-bottom: 10px;
 }
 .button-container {
@@ -995,7 +1019,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   transition: background-color 0.3s;
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -1006,10 +1030,6 @@ body {
 
 .orange{
   color: white; /* Color de las letras naranjas */
-  text-shadow: -1px -1px 0 #ff7700,  
-               1px -1px 0 #ff7700,  
-              -1px 1px 0 #ff7700,  
-               1px 1px 0 #ff7700; /* Simulación de borde con text-shadow */
 }
 
 
@@ -1017,6 +1037,7 @@ body {
 
 /*Responsive Media Queries*/
 @media(max-width:900px) {
+
   .menuvideo{
     display:none;
   }
@@ -1102,11 +1123,11 @@ body {
 
 
   /*Seccion card tienda responsive*/
-  .photo-container{
+  .shop-responsive{
     display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+  }
+  .photo-container{
+    display: none;
   }
 
   /*Cards lessons*/
@@ -1202,6 +1223,7 @@ body {
   margin: 6px 12px;
 
 }
+
   .footer{
     display:flex;
     text-align: center;
@@ -1249,9 +1271,9 @@ body {
   .btn {
     width: 65%; 
     padding: 5px; 
-    height: 43px; 
+    height: 70px; 
   
-  font-size: 12px;
+  font-size: 20px;
   }
 
 }

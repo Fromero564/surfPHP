@@ -78,15 +78,15 @@
 
 
 <div class='slider-frame'>
-  <div class="overlay">
+  <div class="overlayslide">
     <h3 class='orange'>"Surf Lessons & Guide Surf Experience the best on Kauai for all the levels"</h3>
-    <div class='button-container'><button class="btn">BOOK NOW</button>
+    <div class='button-container'>
+      <button class="btn">BOOK NOW</button>
     <button class="btn">LEARN MORE</button>
   </div>
   </div>
   <ul>
-    <li><img src="./photos/slide1.jpg" alt="">
-    </li>
+    <li><img src="./photos/slide1.jpg" alt=""></li>
      <li><img src="./photos/slide2.jpg" alt=""></li>
     <li><img src="./photos/slide3.jpg" alt=""></li>
     <li><img src="./photos/slide6.jpg" alt=""></li>
@@ -142,7 +142,17 @@
             <h2 class="description">HAT</h2>
             <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
           </div>
+          </div>
       </div>
+
+      <div class="shop-responsive">
+          <div class="photo">
+          <img src="./photos/foto3.png" alt="Producto 2" />
+          <div class="overlay">
+            <h2 class="description">MENS LOGOWEAR/WOMENS LOGOWEAR/KIDS LOGOWEAR/HAT</h2>
+            <a href="./Views/shop.php" class="button">Shop Now</a>
+          </div>
+          </div>
     </section>
     <section class="section-history">
       <h3>
@@ -333,7 +343,7 @@
           <img
             src="./photos/NukumoiRetroLogo.jpeg"
             alt="Logo"
-            class="logo-surf"
+            class="logo-surffooter"
           />
         </div>
         <ul class="social-icons">

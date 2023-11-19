@@ -92,7 +92,7 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3>Group Surf Lesson</h3>
+            <h3>Group <br> Surf Lesson</h3>
             <p>
              Shared  lessons with other parties close to the shore in Sunny Poipu beach. Catch waves and make new friends! 
             </p>
@@ -125,7 +125,7 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3> Private Ohana Surf Lesson </h3>
+            <h3> Private Ohana <br> Surf Lesson </h3>
             <p>
               This is our most popular. Perfect for small groups, and the whole 
               family to enjoy the ocean and riding waves together! A family that surfs together stays together!
@@ -157,7 +157,7 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3>Kids Private Group Surf Lessons</h3>
+            <h3>Kids Private Group<br>  Surf Lessons</h3>
             <p>
          We love sharing with the keiki! We give special attention focusing on the safety,
           fun, and sensitivity of young children.
@@ -191,7 +191,7 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3>Private Surf lessons</h3>
+            <h3>Private <br> Surf lessons </h3>
             <p>
              One on one guidance with our skilled instructors gives you personalized
               attention for safety, more opportunity to ride waves and progress your surfing ability .
@@ -224,7 +224,7 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3>Rochelle Ballard Surf Experience</h3>
+            <h3>Rochelle Ballard <br> Surf Experience</h3>
             <p>
               Surf with Kauai’s legendary elite professional female surfer.
                All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
@@ -257,7 +257,7 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3>Rochelle Ballard Surf Experience</h3>
+            <h3>Rochelle Ballard <br> Surf Experience</h3>
             <p>
               Surf with Kauai’s legendary elite professional female surfer,
               Rochelle Ballard, stunt double and starred in Blue Crush, Master’s
@@ -284,22 +284,25 @@
       </ul>
     </div>
     <div class="column2">
-      <h3></h3>
-      <ul class="social-icons">
-        <li>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-google"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-tripadvisor"></i></a>
-        </li>
-      </ul>
-    </div>
+        <div>
+          <img
+            src="../photos/NukumoiRetroLogo.jpeg"
+            alt="Logo"
+            class="logo-surffooter"
+          />
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-google"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+        </ul>
+      </div>
     <div class="column3">
       <h3>QUICK LINKS</h3>
       <ul>
