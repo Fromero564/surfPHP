@@ -71,7 +71,18 @@
         </p>
       </div>
     </div>
-    <section>
+
+      <div class='frase'>
+      <p>Discover the epic waters of Kaua’i with our experienced surf adventure team . 
+      They will share their knowledge and expertise of wave riding on Kaua’i, understanding the swells and reefs
+       and how to improve your surfing ability. 
+      Top your surf adventure off with an optional epicurean bbq on the beach from award winner, Chef JP Filion.</p>
+    </div>
+    <section class='no-responsive'>
+
+   
+
+    <!-- CARD no RESPONSIVE 1    -->
       <div class="container-card">
         <div class="card card2 servicios-div">
           <figure class="figure-container">
@@ -80,7 +91,7 @@
                 <p class="p-icons">90 MINUTES</p>
               </i>
               <i class="fas fa-user ages-icon">
-                <p class="p-icons">10+</p>
+                <p class="p-icons">AGES 10+</p>
               </i>
               <i class="fas fa-users people-icon">
                 <p class="p-icons">2-8 PEOPLE</p>
@@ -105,6 +116,8 @@
           </div>
         </div>
 
+     <!-- CARD no RESPONSIVE 2    --> 
+
         <div class="card card2 servicios-div">
           <figure class="figure-container">
             <div class="overlay-icons">
@@ -112,7 +125,7 @@
                 <p class="p-icons">90 MINUTES</p>
               </i>
               <i class="fas fa-user ages-icon">
-                <p class="p-icons">9+</p>
+                <p class="p-icons">AGES 9+</p>
               </i>
               <i class="fas fa-users people-icon">
                 <p class="p-icons">3-8 PEOPLE</p>
@@ -139,6 +152,8 @@
           </div>
         </div>
 
+         <!-- CARD no RESPONSIVE 3    -->
+
         <div class="card card2 servicios-div">
           <figure class="figure-container">
             <div class="overlay-icons">
@@ -146,7 +161,7 @@
                 <p class="p-icons">90 MINUTES</p>
               </i>
               <i class="fas fa-user ages-icon">
-                <p class="p-icons">9 AND UNDER</p>
+                <p class="p-icons">9 and UNDER</p>
               </i>
               <i class="fas fa-users people-icon">
                 <p class="p-icons">2 MINIMUM</p>
@@ -171,6 +186,8 @@
 
           </div>
         </div>
+
+         <!-- CARD no RESPONSIVE 4    -->
 
         <div class="card card2 servicios-div">
           <figure class="figure-container">
@@ -205,6 +222,8 @@
           </div>
         </div>
 
+         <!-- CARD no RESPONSIVE 5    -->
+
         <div class="card card2 servicios-div">
           <figure class="figure-container">
             <div class="overlay-icons">
@@ -228,7 +247,8 @@
           <div class="contenido">
             <h3>Guided <br>Surf Experience</h3>
             <p>
-            Our experienced local surf instructor will take you to the best wave on that day, according to the swell, winds, and tide for your desired wave and ability.
+            Our experienced local surf instructor will take you to the best wave on that day, 
+            according to the swell, winds, and tide for your desired wave and ability.
             </p>
             <div class='buttonBL'>
               <a href=""> Book Now</a>
@@ -236,6 +256,10 @@
             </div>
           </div>
         </div>
+         
+
+        <!-- CARD no RESPONSIVE 6    -->
+
 
         <div class="card card2 servicios-div">
           <figure class="figure-container">
@@ -260,10 +284,8 @@
           <div class="contenido">
             <h3>Rochelle Ballard <br> Surf Experience</h3>
             <p>
-              Surf with Kauai’s legendary elite professional female surfer,
-              Rochelle Ballard, stunt double and starred in Blue Crush, Master’s
-              World Champion, runner up to the WSL World Title, and multiple
-              championship event winner.
+              Surf with Kauai’s legendary elite professional female surfer. 
+              All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
             </p>
             <div class='buttonBL'>
               <a href=""> Book Now</a>
@@ -272,6 +294,272 @@
           </div>
         </div>
 
+      </div>
+    </section>
+
+
+    <!-- CARD RESPONSIVE 1    -->
+
+    <section class="reviews-responsive">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="container-card">
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">AGES 10+</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">2-8 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="../photos/PrivateGroup.jpeg" />
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">90</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3>Group <br> Surf Lesson</h3>
+            <p>
+             Shared  lessons with other parties close to the shore in Sunny Poipu beach. Catch waves and make new friends! 
+            </p>
+            <div class='buttonBL'>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div></div>
+          </div>
+
+            <!-- CARD RESPONSIVE 2    -->
+
+          <div class="carousel-item">
+            <div class="container-card">
+              <div class="card card2 servicios-div">
+               <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons"> AGES 9+</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">3-8 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="../photos/OhanaPrivate.jpeg" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">95</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3> Private Ohana <br> Surf Lesson </h3>
+            <p>
+                 This is our most popular. Perfect for small groups,
+                  and the whole family to enjoy the ocean and riding waves together! A family that surfs together stays together!
+            </p>
+            <div class='buttonBL'>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+
+                <!-- CARD RESPONSIVE 3    -->
+
+          <div class="carousel-item">
+             <div class="container-card">
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">9 and UNDER</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">2 MINIMUM</p>
+              </i>
+            </div>
+
+            <img src="../photos/KidsPrivatelLessons.jpg" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">125</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3> Kids Private Group <br> Surf Lesson </h3>
+            <p>
+             We love sharing with the keiki! We give special attention focusing on the safety,
+              fun, and sensitivity of young children.
+            </p>
+            <div class='buttonBL'>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div></div>
+          </div>
+
+              <!-- CARD RESPONSIVE 4    -->
+
+          <div class="carousel-item">
+             <div class="container-card">
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">ALL AGES</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">1-2 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="../photos/PrivateSurfLessons.jpeg" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">275</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3> Private<br> Surf Lesson </h3>
+            <p>
+              One on one guidance with our skilled instructors gives you personalized attention for safety,
+               more opportunity to ride waves and progress your surfing ability. 
+            </p>
+            <div class='buttonBL'>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div></div>
+          </div>
+          
+              <!-- CARD RESPONSIVE 5    -->
+
+
+              <div class="carousel-item">
+             <div class="container-card">
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">AGES 9+</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">3-8 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="../photos/SurfGuide.jpg" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">350</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3> Guided Surf Experience <br> Surf Lesson </h3>
+            <p>
+             Our experienced local surf instructor will take you to the best wave on that day,
+              according to the swell, winds, and tide for your desired wave and ability.
+            </p>
+            <div class='buttonBL'>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div></div>
+          </div>
+
+            <!-- CARD RESPONSIVE 6    -->
+
+
+              <div class="carousel-item">
+             <div class="container-card">
+        <div class="card card2 servicios-div">
+          <figure class="figure-container">
+            <div class="overlay-icons">
+              <i class="fas fa-clock time-icon">
+                <p class="p-icons">90 MINUTES</p>
+              </i>
+              <i class="fas fa-user ages-icon">
+                <p class="p-icons">AGES 9+</p>
+              </i>
+              <i class="fas fa-users people-icon">
+                <p class="p-icons">3-8 PEOPLE</p>
+              </i>
+            </div>
+
+            <img src="../photos/RochelleB.jpg" />
+
+            <div class="dollar-icon">
+              <p class="from-text">FROM</p>
+              <i class="fas fa-dollar-sign">450</i>
+            </div>
+          </figure>
+          <div class="contenido">
+            <h3> Rochelle Ballard Surf Experience <br> Surf Lesson </h3>
+            <p>
+              Surf with Kauai’s legendary elite professional female surfer.
+               All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
+            </p>
+            <div class='buttonBL'>
+            <a href=""> Book Now</a>
+            <a href=""> Learn More</a>
+            </div>
+          </div>
+        </div></div>
+          </div>
+
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
   </body>

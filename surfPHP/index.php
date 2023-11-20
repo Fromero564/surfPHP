@@ -81,7 +81,7 @@
 
 <div class='slider-frame'>
   <div class="overlayslide">
-    <h3 class='orange'>"Surf Lessons & Guide Surf Experience the best on Kauai for all the levels"</h3>
+    <h3 class='orange'>Surf Lessons & Guide Surf Experience the best on Kauai for all the levels</h3>
     <div class='button-container'>
       <button class="btn">BOOK NOW</button>
     <button class="btn">LEARN MORE</button>
@@ -158,7 +158,7 @@
     </section>
     <section class="section-history">
       <h3>
-        <a href="ourStory.html" class="our-history"><span>OUR HISTORY</span></a>
+        <a href="./Views/ourStory.php" class="our-history"><span>OUR HISTORY</span></a>
       </h3>
       <p>
         Welcome to Nukumoi Surf Shop, (Nukumoi, pronnouned Nuku-moy) The

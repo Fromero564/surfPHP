@@ -402,7 +402,7 @@ nav {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 5px;
   border: 1px solid black;
   background-color: rgba(202, 153, 153, 0.5);
   border-radius: 1rem;
@@ -948,6 +948,7 @@ body {
   width: 100%; 
   height: 600px;
   overflow: hidden;
+  font-size: 25px;
 }
 
 .slider-frame ul {
@@ -1001,8 +1002,12 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.overlayslide h2 {
-  margin-bottom: 10px;
+.overlayslide h3 {
+  width: 75%;
+  height: 63px;
+  font-size: 62px;
+   margin-bottom: 120px;
+  font-weight: bold;
 }
 .button-container {
   display: flex;
@@ -1030,10 +1035,29 @@ body {
 }
 
 .orange{
-  color: white; /* Color de las letras naranjas */
+  color: white;
 }
 
 
+.frase p{
+  width: 75%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+ font-weight: 530;
+   margin: 0 auto; 
+   padding: 50px;
+  font-size: 16px;
+  color: #777272
+   
+}
+/*our history*/
+.image-gallery img{
+
+  width: 50%;
+  height: 50%;
+
+}
 
 
 /*Responsive Media Queries*/
@@ -1151,7 +1175,7 @@ body {
     display: none;
   }
 
-  .contenido{
+  /*.contenido{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1188,7 +1212,7 @@ body {
     margin-bottom: 30px;
     border-radius: 20px;
     overflow: hidden;
-   /* background: #ff7700;*/
+
     box-shadow: 0px 1px 10px(189, 160, 105);
     cursor: default;
     transition: all 400ms ease;
@@ -1200,7 +1224,9 @@ body {
 
   .dollar-icon{
     display:none;
-  }
+  }*/
+
+  
 
   .section-reviews {
     display: none;
@@ -1283,5 +1309,37 @@ body {
   
   font-size: 20px;
   }
+  
+ .no-responsive {
+    display: none;
+  }
 
+  .card .contenido h3,
+.card .contenido p {
+  text-align: left; 
+}
+.card .contenido h3{
+  font-weight: bold
+}
+
+.overlayslide h3 {
+  width: 80%;
+  height: 63px;
+  font-size: 34px;
+   margin-bottom: 190px;
+  font-weight: bold;
+}
+.frase p{
+  width: 90%;
+  height: 70%;
+  justify-content: center;
+  text-align: center;
+ font-weight: 530;
+   
+   margin-bottom: 15px;
+   padding: 20px;
+  font-size: 16px;
+  color: #777272
+   
+}
 }
