@@ -42,6 +42,8 @@
     </nav>
 
     <div class="respmenu">
+    <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logosurfresponsive" />
+    <img src="./photos/logosurf.png" alt="Logo" class="logosurfresponsive" />
       <input type="checkbox" />
       <i class="fas fa-bars"></i>
       <i class="fas fa-times"></i>
@@ -66,7 +68,7 @@
         <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
         <li><a href="Views/shop.php">SHOP</a></li>
       </ul>
-      <img src="./photos/logosurf.png" alt="Logo" class="logomenuvideo" />
+      <img src="./photos/logosurf.jpg" alt="Logo" class="logomenuvideo" />
       </div>
 
     <section class="promo-box" id="promoSection">

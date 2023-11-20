@@ -35,11 +35,13 @@
         <li><a href="./surfLessons.php">SURF LESSONS</a></li>
         <li><a href="./beachRental.php">BEACH RENTAL</a></li>
         <li><a href="./shop.php">SHOP</a></li>
-        <img src="../photos/logosurf.png" alt="Logo" class="logo-surf2" />
+        <img src="../photos/logosurf.jpg" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
 
     <div class="respmenu">
+    <img src="../photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logosurfresponsive" />
+    <img src="../photos/logosurf.png" alt="Logo" class="logosurfresponsive" />
       <input type="checkbox" />
       <i class="fas fa-bars"></i>
       <i class="fas fa-times"></i>
@@ -224,10 +226,9 @@
             </div>
           </figure>
           <div class="contenido">
-            <h3>Rochelle Ballard <br> Surf Experience</h3>
+            <h3>Guided <br>Surf Experience</h3>
             <p>
-              Surf with Kauai’s legendary elite professional female surfer.
-               All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
+            Our experienced local surf instructor will take you to the best wave on that day, according to the swell, winds, and tide for your desired wave and ability.
             </p>
             <div class='buttonBL'>
               <a href=""> Book Now</a>
