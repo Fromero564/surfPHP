@@ -117,30 +117,33 @@
   </body>
   <footer class="footer">
     <div class="column1">
-      <h3>CONTACT INFO</h3>
-      <ul>
-        <li><i class="fas fa-phone"></i> Teléfono: +123-456-7890</li>
-        <li><i class="fas fa-envelope"></i> Correo: info@tupaginasurf.com</li>
-        <li><i class="fas fa-map-marker"></i> Dirección: 123 Surf Street</li>
-      </ul>
-    </div>
-    <div class="column2">
-      <h3></h3>
-      <ul class="social-icons">
-        <li>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-google"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-tripadvisor"></i></a>
-        </li>
-      </ul>
-    </div>
+        <h3>CONTACT INFO</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i> 808.742.8019</li>
+          <li><i class="fas fa-envelope"></i>christine@nukumoi.com</li>
+          <li><i class="fas fa-map-marker"></i>2080 Hoone Rd.Poipu, HI 96756 Kaua'i, Hawai'i, USA</li>
+        </ul>
+      </div>
+      <div class="column2">
+        <div>
+          <img
+            src="../photos/NukumoiRetroLogo.jpeg"
+            alt="Logo"
+            class="logo-surffooter"
+          />
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.instagram.com/nukumoisurf/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14810.295135432982!2d-159.4528656!3d21.87397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071a964bdcd715%3A0xe3c81ead6273d13d!2sNukumoi%20Surf%20Co.!5e0!3m2!1ses-419!2sar!4v1698277012523!5m2!1ses-419!2sar" target='_blanck'><i class="fab fa-google"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/nukumoi" target="_blank"><i class="fab fa-facebook"></i></a>
+          </li>
+        </ul>
+      </div>
     <div class="column3">
       <h3>QUICK LINKS</h3>
       <ul>

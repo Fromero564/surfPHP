@@ -60,23 +60,24 @@
     <div class="photo-poipu">
       <img src="../photos/Webp.net-resizeimage.jpg" alt="" />
       <div class="text-img">
-        <h1>SURF LESSONS</h1>
-        <h2>
-          Want to Learn to Surf? Our Private Surf Lessons are THE BEST on Kauai,
-          HI
-        </h2>
-        <p>
-          We are stoked you found us! Checkout the different class options
-          below, and don't hesitate to give us a call if you have any questions.
-        </p>
+       
+        <h1>
+          Rochelle Ballard Surf Experience
+        </h1>
+       <h1>Kauai’s Best Surf School</h1>
       </div>
     </div>
 
       <div class='frase'>
-      <p>Discover the epic waters of Kaua’i with our experienced surf adventure team . 
-      They will share their knowledge and expertise of wave riding on Kaua’i, understanding the swells and reefs
-       and how to improve your surfing ability. 
-      Top your surf adventure off with an optional epicurean bbq on the beach from award winner, Chef JP Filion.</p>
+       <p>
+            Rochelle Ballard offers an unparalleled opportunity to learn from a true surfing legend.  
+            With her extensive experience as a professional surfer and deep understanding of the ocean, 
+            Rochelle provides more than just a lesson-she imparts invaluable wisdom and passion for the sport,
+            and lifestyle of surfing.  Her personalized teaching method and technique ensures a transformative
+            surf experience where beginners gain confidence and insight on the best approach to surfing from 
+            the very beginning to set you up for success.  The best surfer in the line up is the one having the
+            most fun, riding waves and being safe.  LETS GO SURFING! 
+        </p>
     </div>
     <section class='no-responsive'>
 
@@ -565,14 +566,14 @@
   </body>
   <footer class="footer">
     <div class="column1">
-      <h3>CONTACT INFO</h3>
-      <ul>
-        <li><i class="fas fa-phone"></i> Teléfono: +123-456-7890</li>
-        <li><i class="fas fa-envelope"></i> Correo: info@tupaginasurf.com</li>
-        <li><i class="fas fa-map-marker"></i> Dirección: 123 Surf Street</li>
-      </ul>
-    </div>
-    <div class="column2">
+        <h3>CONTACT INFO</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i> 808.742.8019</li>
+          <li><i class="fas fa-envelope"></i>christine@nukumoi.com</li>
+          <li><i class="fas fa-map-marker"></i>2080 Hoone Rd.Poipu, HI 96756 Kaua'i, Hawai'i, USA</li>
+        </ul>
+      </div>
+      <div class="column2">
         <div>
           <img
             src="../photos/NukumoiRetroLogo.jpeg"
@@ -582,13 +583,13 @@
         </div>
         <ul class="social-icons">
           <li>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/nukumoisurf/" target="_blank"><i class="fab fa-instagram"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-google"></i></a>
+           <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14810.295135432982!2d-159.4528656!3d21.87397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071a964bdcd715%3A0xe3c81ead6273d13d!2sNukumoi%20Surf%20Co.!5e0!3m2!1ses-419!2sar!4v1698277012523!5m2!1ses-419!2sar" target='_blanck'><i class="fab fa-google"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/nukumoi" target="_blank"><i class="fab fa-facebook"></i></a>
           </li>
         </ul>
       </div>

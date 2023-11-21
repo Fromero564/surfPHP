@@ -697,6 +697,7 @@ i {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Fink Sands', sans-serif;
+  color: #456789;
 
 }
 
@@ -873,9 +874,10 @@ i {
 .text-img h1,
 .text-img h2 {
   color: #fefefe;
-  margin: 20px;
+  margin: 0px;
   font-size: 40px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+
 }
 
 
@@ -1067,7 +1069,7 @@ body {
    margin: 0 auto; 
    padding: 50px;
   font-size: 16px;
-  color: #777272
+  color: #777272;
    
 }
 /*our history*/
@@ -1370,16 +1372,15 @@ body {
 }
 .overp{
  display: block;
-  position: relative; /* Para usar posición relativa */
-  top: 250px; /* Ajusta la posición vertical del texto */
+  position: relative; 
+  top: 250px; 
 
 }
-
 
 .overp span {
   display: block; 
-
 }
+
 
 
 }
