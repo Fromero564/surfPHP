@@ -118,28 +118,28 @@
     <section>
       <div class="photo-container">
         <div class="photo">
-          <img src="./photos/foto4.png" alt="Producto 3" />
+          <img src="./photos../mensShop/mens1.jpg" alt="Producto 3" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR</h2>
             <a href="./Views/shop.php#men-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos/foto2.png" alt="Producto 1" />
+          <img src="./photos../womensShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="Producto 1" />
           <div class="overlay">
             <h2 class="description">WOMENS LOGOWEAR</h2>
             <a href="./Views/shop.php#women-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos/foto3.png" alt="Producto 2" />
+          <img src="./photos../kidsShop/kids1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">KIDS LOGOWEAR</h2>
             <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos/foto3.png" alt="Producto 2" />
+          <img src="./photos../hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">HAT</h2>
             <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
@@ -149,25 +149,45 @@
 
       <div class="shop-responsive">
           <div class="photo">
-          <img src="./photos/foto3.png" alt="Producto 2" />
+          <img src="./photos../mensShop/mens1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR/WOMENS LOGOWEAR/KIDS LOGOWEAR/HAT</h2>
             <a href="./Views/shop.php" class="button">Shop Now</a>
           </div>
           </div>
     </section>
-    <section class="section-history">
-      <h3>
-        <a href="./Views/ourStory.php" class="our-history"><span>OUR HISTORY</span></a>
-      </h3>
-      <p>
+   <div class='slider-frame'>
+  <div class="overlayslide">
+
+      <p class='over'>
         Welcome to Nukumoi Surf Shop, (Nukumoi, pronnouned Nuku-moy) The
         ultimate destination for all of your surfing, ocean, and beach
         activities. We provide the best surf lessons, surfboard rentals, beach
         gear, snorkel gear, our Nukumoi branded collection, surf apparel, gopro,
         sunglasses, and so much more. Come on in! (Nukumoi, pronnouned Nuku-moy)
       </p>
-    </section>
+      <h3 class='overp'>
+       <span>WELCOME</span>
+       <span>TO</span>
+      </h3>
+
+      <h3>
+         <a href="./Views/ourStory.php" class="our-history"><span>OUR HISTORY</span></a>
+      </h3>
+  </div>
+  <ul>
+    <li><img src="./photos/history1.jpg" alt=""></li>
+     <li><img src="./photos/history2.jpg" alt=""></li>
+    <li><img src="./photos/history3.jpg" alt=""></li>
+    <li><img src="./photos/history4.jpeg" alt=""></li>
+    <li><img src="./photos/history5.jpg" alt=""></li>
+    <li><img src="./photos/history6.png" alt=""></li>
+    <li><img src="./photos/history7.jpg" alt=""></li>
+    <li><img src="./photos/history8.png" alt=""></li>
+    <li><img src="./photos/history9.jpg" alt=""></li>
+    <li><img src="./photos/history10.jpg" alt=""></li>
+  </ul>
+</div>
     <section class="section-reviews">
       <div class="card-review">
         <p>

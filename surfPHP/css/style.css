@@ -657,7 +657,7 @@ i {
   flex: 1;
   position: relative;
   overflow: hidden;
-  height: 270px;
+  height: 370px;
 }
 
 .photo img {
@@ -949,19 +949,23 @@ body {
   height: 600px;
   overflow: hidden;
   font-size: 25px;
+  position: relative;
+  margin-top: 30px; 
+  margin-bottom: 30px; 
 }
 
 .slider-frame ul {
   display: flex;
   padding: 0;
-  width: 900%; /* Adjusted width to accommodate the number of slides */
+  width: 1000%; 
   height: 100%;
-  animation: slide 28s infinite linear;
+    animation: slide 60s infinite linear;
 }
 
 .slider-frame li {
   list-style: none;
-  width: 100%;
+  width: 10%;
+  height: 120%;
 }
 
 .slider-frame img {
@@ -973,18 +977,25 @@ body {
 
 @keyframes slide {
   0% {
-    margin-left: 0%;
+    transform: translateX(0); 
   }
   100% {
-    margin-left: -200%; 
+    transform: translateX(-90%); 
   }
+  
 }
 
 
 .slider-frame {
   position: relative;
 }
-
+.slider-frame p{
+   width: 75%;
+  height: 63px;
+  font-size: 30px;
+   margin-bottom: 120px;
+  font-weight: bold;
+}
 .overlayslide {
   position: absolute;
   display: flex;
@@ -1000,6 +1011,11 @@ body {
   color: white;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.3);
+ 
+}
+
+.overlayslide a{
+  margin-top: 100px;
 }
 
 .overlayslide h3 {
@@ -1014,6 +1030,9 @@ body {
   gap: 10px; 
   justify-content: center; 
   margin-top: 15px;
+}
+.overp{
+  display: none;
 }
 
 .btn {
@@ -1226,7 +1245,9 @@ body {
     display:none;
   }*/
 
-  
+  .card2{
+   max-width: 93%;
+  }
 
   .section-reviews {
     display: none;
@@ -1241,6 +1262,7 @@ body {
   .card-review{
     margin: auto;
     margin-bottom: 20px;
+ 
   }
 
   .card-review2{
@@ -1342,4 +1364,22 @@ body {
   color: #777272
    
 }
+
+.over{
+  display: none;
+}
+.overp{
+ display: block;
+  position: relative; /* Para usar posición relativa */
+  top: 250px; /* Ajusta la posición vertical del texto */
+
+}
+
+
+.overp span {
+  display: block; 
+
+}
+
+
 }
