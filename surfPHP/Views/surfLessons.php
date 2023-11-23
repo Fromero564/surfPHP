@@ -277,7 +277,7 @@
                 <p class="p-icons">1-4 PEOPLE</p>
               </i>
             </div>
-            <img src="../photos/RochelleB.jpg" />
+            <img src="../photos/RochelleB.jpeg" />
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>

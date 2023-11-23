@@ -64,7 +64,12 @@ $productosMen = $con->getProductsMen();
 
 foreach ($productosMen as $productoMan) {
     echo '<div class="card-shop">';
-    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    if (isset($productoMan["photo_name"])) {
+      $imagenSrc = '../photos/menShop/' . $productoMan["photo_name"];
+      echo '<img src="' . $imagenSrc . '" alt="Producto de Surf" />';
+  } else {
+      echo '<p>No se encontró la imagen</p>';
+  }
     echo '<hr class="divider" />';
     echo '<h2>' . $productoMan["name"] . '</h2>';
     echo '<p>' . $productoMan["colour"] . '</p>';
@@ -81,7 +86,12 @@ $productosWomen = $con->getProductsWomen();
 
 foreach ($productosWomen as $productoWoman) {
     echo '<div class="card-shop">';
-    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    if (isset($productoWoman["photo_name"])) {
+      $imagenSrc = '../photos/womenShop/' . $productoWoman["photo_name"];
+      echo '<img src="' . $imagenSrc . '" alt="Producto de Surf" />';
+  } else {
+      echo '<p>No se encontró la imagen</p>';
+  }
     echo '<hr class="divider" />';
     echo '<h2>' . $productoWoman["name"] . '</h2>';
     echo '<p>' . $productoWoman["colour"] . '</p>';
@@ -98,7 +108,12 @@ $productosChildren = $con->getProductsChildren();
 
 foreach ($productosChildren as $productoChild) {
     echo '<div class="card-shop">';
-    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    if (isset($productoChild["photo_name"])) {
+      $imagenSrc = '../photos/kidsShop/' . $productoChild["photo_name"];
+      echo '<img src="' . $imagenSrc . '" alt="Producto de Surf" />';
+  } else {
+      echo '<p>No se encontró la imagen</p>';
+  }
     echo '<hr class="divider" />';
     echo '<h2>' . $productoChild["name"] . '</h2>';
     echo '<p>' . $productoChild["colour"] . '</p>';
@@ -115,7 +130,12 @@ $productosHats = $con->getProductsHats();
 
 foreach ($productosHats as $productoHat) {
     echo '<div class="card-shop">';
-    echo '<img src="../photos/foto2.png" alt="Producto de Surf" />';
+    if (isset($productoHat["photo_name"])) {
+      $imagenSrc = '../photos/hatsShop/' . $productoHat["photo_name"];
+      echo '<img src="' . $imagenSrc . '" alt="Producto de Surf" />';
+  } else {
+      echo '<p>No se encontró la imagen</p>';
+  }
     echo '<hr class="divider" />';
     echo '<h2>' . $productoHat["name"] . '</h2>';
     echo '<p>' . $productoHat["colour"] . '</p>';

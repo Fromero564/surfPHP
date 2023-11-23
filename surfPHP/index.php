@@ -119,28 +119,28 @@
     <section>
       <div class="photo-container">
         <div class="photo">
-          <img src="./photos../mensShop/mens1.jpg" alt="Producto 3" />
+          <img src="./photos/menShop/mens1.jpg" alt="Producto 3" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR</h2>
             <a href="./Views/shop.php#men-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos../womensShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="Producto 1" />
+          <img src="./photos/womenShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="Producto 1" />
           <div class="overlay">
             <h2 class="description">WOMENS LOGOWEAR</h2>
             <a href="./Views/shop.php#women-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos../kidsShop/kids1.jpg" alt="Producto 2" />
+          <img src="./photos/kidsShop/kids1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">KIDS LOGOWEAR</h2>
             <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos../hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="Producto 2" />
+          <img src="./photos/hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">HAT</h2>
             <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
@@ -150,7 +150,7 @@
 
       <div class="shop-responsive">
           <div class="photo">
-          <img src="./photos../mensShop/mens1.jpg" alt="Producto 2" />
+          <img src="./photos/mensShop/mens1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR/WOMENS LOGOWEAR/KIDS LOGOWEAR/HAT</h2>
             <a href="./Views/shop.php" class="button">Shop Now</a>
