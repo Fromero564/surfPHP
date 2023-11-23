@@ -464,12 +464,16 @@ nav {
 
 
 /*footer*/
+
 .column2{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+ 
+ 
 }
+
 .footer {
   background-color: #3ea6a1;
   display: flex;
@@ -481,9 +485,6 @@ nav {
   font-family: 'Fink Sands', sans-serif;
   align-items: center;
   text-shadow: 2px 2px #ff9900;
-
-
-
 }
 
 
@@ -697,7 +698,7 @@ i {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Fink Sands', sans-serif;
-  color: #456789;
+  color: white;
 
 }
 
@@ -864,21 +865,26 @@ i {
 
 .text-img {
   position: absolute;
-  top: 21%;
+  top: 30%;
   left: 5%;
   width: 60%;
   height: 50px;
   z-index: 0;
+  margin: 20px;
+  font-weight: bold;
+
 }
 
 .text-img h1,
 .text-img h2 {
   color: #fefefe;
   margin: 0px;
-  font-size: 40px;
+  font-size: 55px;
+  padding: 10px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
 
 }
+
 
 
 .text-img p {
@@ -1069,7 +1075,7 @@ body {
    margin: 0 auto; 
    padding: 50px;
   font-size: 16px;
-  color: #777272;
+  color: grey;
    
 }
 /*our history*/
@@ -1079,6 +1085,8 @@ body {
   height: 50%;
 
 }
+
+
 
 
 /*Responsive Media Queries*/
@@ -1188,6 +1196,7 @@ body {
   .photo-poipu{
     height: 300px;
   }
+ 
   .text-img h2{
     display:none;
   }
@@ -1379,6 +1388,9 @@ body {
 
 .overp span {
   display: block; 
+}
+.text-img h1{
+  display: none;
 }
 
 

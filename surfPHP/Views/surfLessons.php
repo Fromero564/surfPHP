@@ -24,6 +24,7 @@
     <!--Our CSS-->
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/style.css" />
+   
     <title>Tu Sitio Web</title>
   </head>
   <body>
@@ -67,6 +68,7 @@
        <h1>Kauai’s Best Surf School</h1>
       </div>
     </div>
+   
 
       <div class='frase'>
        <p>

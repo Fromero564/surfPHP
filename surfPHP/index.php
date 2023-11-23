@@ -25,6 +25,7 @@
     <!--Our CSS-->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    
     <title>Tu Sitio Web</title>
   </head>
 
@@ -188,6 +189,8 @@
     <li><img src="./photos/history10.jpg" alt=""></li>
   </ul>
 </div>
+
+
     <section class="section-reviews">
       <div class="card-review">
         <p>
