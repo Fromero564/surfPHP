@@ -119,7 +119,7 @@
     <section>
       <div class="photo-container">
         <div class="photo">
-          <img src="./photos/menShop/mens1.jpg" alt="Producto 3" />
+          <img src="./photos/menShop/men1.jpg" alt="Producto 3" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR</h2>
             <a href="./Views/shop.php#men-section" class="button">Shop Now</a>
@@ -150,7 +150,7 @@
 
       <div class="shop-responsive">
           <div class="photo">
-          <img src="./photos/mensShop/mens1.jpg" alt="Producto 2" />
+          <img src="./photos/menShop/men1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR/WOMENS LOGOWEAR/KIDS LOGOWEAR/HAT</h2>
             <a href="./Views/shop.php" class="button">Shop Now</a>
