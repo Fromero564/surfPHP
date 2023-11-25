@@ -844,7 +844,6 @@ i {
   text-align: center;
   margin-bottom: 10px;
 }
-
 /*section-poipu*/
 .photo-poipu {
   position: relative;
@@ -1078,15 +1077,65 @@ body {
   color: grey;
    
 }
-/*our history*/
-.image-gallery img{
 
-  width: 50%;
-  height: 50%;
+/* Estilos para el collage */
+
+.collage {
+  max-width: 1400px; 
+  margin: 0 auto;
+  position: relative;
+}
+
+.top-row,
+.middle-row,
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 5px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; 
+   filter: sepia(40%) saturate(120%) contrast(80%) brightness(90%);
+}
+
+.middle-row img {
+  width: 490px; 
+  height: 350px; 
 
 }
 
 
+.bottom-row {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 50%; 
+  transform: translateY(-50%); 
+  display: flex;
+  justify-content: center; 
+}
+
+
+.bottom-row img {
+  width: 300px; 
+  height: 300px; 
+  margin-right: 10px; 
+  border-radius: 5px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; 
+  transform: rotate(5deg); 
+}
+
+.overlayslide p {
+  width: 75%;
+  height: 53px;
+  font-size: 15px;
+  margin-top:-250px;
+ 
+  
+}
 
 
 /*Responsive Media Queries*/

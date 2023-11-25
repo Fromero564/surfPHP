@@ -57,57 +57,50 @@
     </div>
 
   <body>
+
+   <div class='slider-frame'>
+  <div class="overlayslide">
+
+      <p class='over-our'>
+        Aloha! We have been an ohana Surf Shop since 1995 established with our Kauai based ohana and surfing roots and lifestyle from our Papa Klyde surfing and canoe paddling with the Kahanamoku brothers in Waikiki to his son Robert French surfing and fishing.  I am Christine French, the surf mom that loves to be there to support and provide for my whole ohana with love and encouragement.<br><br>  
+
+For the most part our ohana grew up right here on the south shore and in Poipu.  We all enjoyed the ocean from a few months old.  It was and is our playground to this day.   
+Swimming, bodyboarding, surfing, snorkeling, fishing, diving, and boating are all a big part of our lifestyle.<br><br>
+
+Our oldest daughter, Rochelle Ballard, became a world famous professional surfer and established herself as the pioneer of women’s barrel riding and big wave surfing.  Our youngest son Kainoa became passionate about bodyboarding and surfing the world famous Pipeline.  To this day he loves bodyboarding Nukumoi and other shallow reef barreling waves.  Hoku, our oldest son, grew up surfing and SUP surfing, hiking, and canoe paddling.  They are all fish out of the water and great skilled watermen and women.  My two youngest daughters Kelly and Jessica,  love playing around on their longboards and enjoying the beach and swimming in the ocean.  
+All of our grandchildren are just like our kids, always at the beach and enjoying the ocean and beach lifestyle that we all love. <br><br> 
+
+We started Nukumoi Surf Shop to share that lifestyle with our community and visitors, from surf school recently led by Rochelle, to all of the ocean and beach and surfing equipment to bikinis, board shorts, rashguards and the endless summer beach lifestyle products, that provide the best experience and enjoyment on our beloved sunny south shore of Poipu.   We are here for you!  Come in and check us out! 
+
+E komo mai and aloha<br><br>
+
+From our ohana to yours!
+
+      </p>
+      <h3 class='overp'>
+       <span>WELCOME</span>
+       <span>TO</span>
+      </h3>
+
+     
+  </div>
+  <ul>
+    <li><img src="../photos/history1.jpg" alt=""></li>
+     <li><img src="../photos/history2.jpg" alt=""></li>
+    <li><img src="../photos/history3.jpg" alt=""></li>
+    <li><img src="../photos/history4.jpeg" alt=""></li>
+    <li><img src="../photos/history5.jpg" alt=""></li>
+    <li><img src="../photos/history6.png" alt=""></li>
+    <li><img src="../photos/history7.jpg" alt=""></li>
+    <li><img src="../photos/history8.png" alt=""></li>
+    <li><img src="../photos/history9.jpg" alt=""></li>
+    <li><img src="../photos/history10.jpg" alt=""></li>
+  </ul>
+</div>
+
+
  
-<section class="gallery-section">
-   <div class='history'>
-    <p>Aloha! We have been an ohana Surf Shop since 1995 established with our Kauai based ohana and surfing roots and lifestyle from our Papa Klyde surfing and canoe paddling with the Kahanamoku brothers in Waikiki to his son Robert French surfing and fishing.  I am Christine French, the surf mom that loves to be there to support and provide for my whole ohana with love and encouragement.</p>
 
-    <p>For the most part our ohana grew up right here on the south shore and in Poipu.  We all enjoyed the ocean from a few months old.  It was and is our playground to this day.   
-    Swimming, bodyboarding, surfing, snorkeling, fishing, diving, and boating are all a big part of our lifestyle.</p>
-
-    <p>Our oldest daughter, Rochelle Ballard, became a world famous professional surfer and established herself as the pioneer of women’s barrel riding and big wave surfing.  Our youngest son Kainoa became passionate about bodyboarding and surfing the world famous Pipeline.  To this day he loves bodyboarding Nukumoi and other shallow reef barreling waves.  Hoku, our oldest son, grew up surfing and SUP surfing, hiking, and canoe paddling.  They are all fish out of the water and great skilled watermen and women.  My two youngest daughters Kelly and Jessica,  love playing around on their longboards and enjoying the beach and swimming in the ocean.  All of our grandchildren are just like our kids, always at the beach and enjoying the ocean and beach lifestyle that we all love.</p>
-
-    <p>We started Nukumoi Surf Shop to share that lifestyle with our community and visitors, from surf school recently led by Rochelle, to all of the ocean and beach and surfing equipment to bikinis, board shorts, rashguards and the endless summer beach lifestyle products, that provide the best experience and enjoyment on our beloved sunny south shore of Poipu.   We are here for you!  Come in and check us out!</p>
-
-    <p>E komo mai and aloha</p>
-
-    <p>From our ohana to yours!</p>
-  </div>
-  
-  <div class="image-gallery">
-    <div class="gallery-item">
-      <img src="../photos/history1.jpg" alt="Imagen 1">
-    </div>
-    <div class="gallery-item">
-      <img src="../photos/history2.jpg" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history3.jpg" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history4.jpeg" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history5.jpg" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history6.png" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history7.jpg" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history8.png" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history9.jpg" alt="Imagen 2">
-    </div>
-     <div class="gallery-item">
-      <img src="../photos/history10.jpg" alt="Imagen 2">
-    </div>
-    
-  </div>
-</section>
 
   </body>
   <footer class="footer">

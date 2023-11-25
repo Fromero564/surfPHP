@@ -190,6 +190,40 @@
   </ul>
 </div>
 
+  <div class="collage">
+      <div class="overlayslide">
+
+      <p class='over'>
+        Welcome to Nukumoi Surf Shop, (Nukumoi, pronnouned Nuku-moy) The
+        ultimate destination for all of your surfing, ocean, and beach
+        activities. We provide the best surf lessons, surfboard rentals, beach
+        gear, snorkel gear, our Nukumoi branded collection, surf apparel, gopro,
+        sunglasses, and so much more. Come on in! (Nukumoi, pronnouned Nuku-moy)
+      </p>
+     
+
+      <h3>
+         <a href="./Views/ourStory.php" class="our-history"><span>OUR HISTORY</span></a>
+      </h3>
+  </div>
+    <div class="top-row">
+      <img src="./photos/history1.jpg" alt="Foto 1" width="375" height="300">
+      <img src="./photos/history2.jpg" alt="Foto 2" width="555" height="300">
+      <img src="./photos/history3.jpg" alt="Foto 3" width="555" height="300">
+      <img src="./photos/history4.jpeg" alt="Foto 4" width="400" height="300">
+    </div>
+    <div class="middle-row">
+      <img src="./photos/history5.jpg" alt="Foto 5" width="500" height="350">
+      <img src="./photos/history6.png" alt="Foto 6" width="500" height="350">
+      <img src="./photos/history7.jpg" alt="Foto 7" width="500" height="350">
+    </div>
+    <div class="bottom-row">
+      <img src="./photos/history8.png" alt="Foto 8" width="300" height="200">
+      <img src="./photos/history9.jpg" alt="Foto 9" width="300" height="200">
+      <img src="./photos/history10.jpg" alt="Foto 10" width="300" height="200">
+    </div>
+  </div>
+
 
     <section class="section-reviews">
       <div class="card-review">
