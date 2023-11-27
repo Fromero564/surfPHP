@@ -977,7 +977,7 @@ body {
 
 .slider-frame img {
   width: 100%; 
-  height: 100%; 
+  height: 200%; 
   object-fit: cover;
   opacity: 0.8;
 }
@@ -995,10 +995,11 @@ body {
 
 .slider-frame {
   position: relative;
+ 
 }
 .slider-frame p{
    width: 75%;
-  height: 63px;
+
   font-size: 30px;
    margin-bottom: 120px;
   font-weight: bold;
@@ -1032,6 +1033,14 @@ body {
    margin-bottom: 120px;
   font-weight: bold;
 }
+
+.our-history-home .overlayslide p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: white; 
+  margin-bottom: 20px; 
+}
+
 .button-container {
   display: flex;
   gap: 10px; 
@@ -1077,65 +1086,15 @@ body {
   color: grey;
    
 }
-
-/* Estilos para el collage */
-
-.collage {
-  max-width: 1400px; 
-  margin: 0 auto;
-  position: relative;
+.overlayslide.over p {
+  width: 70%;
+  font-size: 30px; 
 }
 
-.top-row,
-.middle-row,
-.bottom-row {
-  display: flex;
-  justify-content: space-between;
-}
-
-img {
-  border-radius: 5px;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out; 
-   filter: sepia(40%) saturate(120%) contrast(80%) brightness(90%);
-}
-
-.middle-row img {
-  width: 490px; 
-  height: 350px; 
-
-}
-
-
-.bottom-row {
-  position: absolute;
-  z-index: 1;
+.our-history-home img{
   width: 100%;
-  top: 50%; 
-  transform: translateY(-50%); 
-  display: flex;
-  justify-content: center; 
 }
 
-
-.bottom-row img {
-  width: 300px; 
-  height: 300px; 
-  margin-right: 10px; 
-  border-radius: 5px;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out; 
-  transform: rotate(5deg); 
-}
-
-.overlayslide p {
-  width: 75%;
-  height: 53px;
-  font-size: 15px;
-  margin-top:-250px;
- 
-  
-}
 
 
 /*Responsive Media Queries*/
@@ -1253,6 +1212,17 @@ img {
   .text-img p {
     display: none;
   }
+
+  /*collage home*/
+   .slider-frame.slider-history {
+    position: relative;
+  width: 100%; 
+  overflow: hidden;
+  height: 220px; 
+}
+
+
+  
 
   /*.contenido{
     width: 100%;
