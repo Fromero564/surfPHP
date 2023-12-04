@@ -1096,6 +1096,61 @@ body {
 }
 
 
+/*BEACH RENTALS*/
+
+.rentals {
+  display: flex;
+  flex-wrap: wrap;
+   align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.rentals h2 {
+  font-weight: bold;
+  text-align: center;
+  width: 100%; 
+}
+
+.rentals p {
+  width: 70%;
+  height: 40%;
+  margin-left: 16%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px; 
+}
+
+
+.left-column,
+.right-column {
+ flex: 1;
+  width: 45%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+
+  
+}
+
+
+
+.left-column h3,
+.right-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.left-column p,
+.right-column p {
+  margin-bottom: 8px;
+}
+
+
+
 
 /*Responsive Media Queries*/
 @media(max-width:900px) {
