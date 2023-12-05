@@ -57,7 +57,7 @@
     </div>
 <body>
   
-<section>
+<div>
 <div class='rentals'>
     <h2>BEACH RENTALS</h2>
     <p class="centered-text">We don't reserve gear in advance, however we have lots of equipment so just come in early for the best selection. 
@@ -65,7 +65,7 @@
     Please note: We stop receiving rental returns 30 minutes before we close!</p>
   
 </div>
-
+<section class="rental-columns">
 <div class="left-column">
     <h3>Snorkel Set</h3>
     <p><strong>$10 day/$30 week</strong></p>
@@ -94,6 +94,7 @@
     <h3>Floatation Belt</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>Different Sizes Available. Small, Medium, Large and X-Large</p>
+    
   </div>
 
   <div class="right-column">
@@ -123,7 +124,7 @@
   </div>
 
 </section>
-
+</div>
 
 
 

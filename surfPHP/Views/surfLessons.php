@@ -281,7 +281,7 @@
 
             <div class="dollar-icon">
               <p class="from-text">FROM</p>
-              <i class="fas fa-dollar-sign">450</i>
+              <i class="fas fa-dollar-sign">400</i>
             </div>
           </figure>
           <div class="contenido">
