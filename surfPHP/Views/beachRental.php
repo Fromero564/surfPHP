@@ -55,7 +55,8 @@
         </ul>
       </nav>
     </div>
-<body>
+<body class='beach-rentals'>
+
   
 <div>
 <div class='rentals'>
@@ -67,31 +68,31 @@
 </div>
 <section class="rental-columns">
 <div class="left-column">
-    <h3>Snorkel Set</h3>
+    <h3>SNORKEL SET</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>High Quality Silicone Masks, Snorkels and a Wide Range of Fin Sizes. Mesh bag and defog included.</p>
 
-    <h3>Fins or Mask Only</h3>
+    <h3>FINS OR MASK ONLY </h3>
     <p><strong>$8 day/$24 week</strong></p>
     <p>(Snorkel Fins or Boogie Board Fins) From Keiki (Kids) Size Through Size 15</p>
 
-    <h3>Bodyboard Boards</h3>
+    <h3>BODYBOARD BOARDS</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>Slick bottom bodyboards with a coiled leash</p>
 
-    <h3>Beach Chairs</h3>
+    <h3>BEACH CHAIRS</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>Comfortable, Reclinable, Easily transportable with beverage holder and personal cooler.</p>
 
-    <h3>Umbrella</h3>
+    <h3>UMBRELLA</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>Large Tommy Bahama 8' umbrella</p>
 
-    <h3>Life Jacket</h3>
+    <h3>LIFE JACKET</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>Kids and Adult sizes available.</p>
 
-    <h3>Floatation Belt</h3>
+    <h3>FLOATATION BELT</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>Different Sizes Available. Small, Medium, Large and X-Large</p>
     
@@ -101,23 +102,23 @@
     
     <h3>SURFBOARD RENTALS (Hourly/Daily(24 hrs)/Weekly)</h3>
     
-    <h4>Soft Boards</h4>
+    <h4>SOFT BOARDS</h4>
     <p><strong>$10 hour/$30 day/$90 week</strong></p>
     <p>For Beginners & Refreshers- Excellent floatation that are perfect for beginners and intermediate alike. Lengths range from 5'6" to 10 feet</p>
 
-    <h4>Hard Boards (epoxy)</h4>
+    <h4>HARD BOARDS (epoxy)</h4>
     <p><strong>$12 hour/$40 day/$120 week</strong></p>
     <p>For more intermediate and experienced surfers.</p>
 
-    <h4>Premium Performance Boards</h4>
+    <h4> PREMIUM PERFORMANCE BOARDS</h4>
     <p><strong>$20 hour/$60 day/$180 week</strong></p>
     <p>For Experienced Surfers, we have an extensive range of epoxy performance boards from 5’2” to 10’</p>
 
-    <h4>Stand-Up-Paddle Boards (SUP)</h4>
+    <h4>STAND-UP-PADDLE BOARDS (SUP)</h4>
     <p><strong>$20 hour/$60 open to close/$80 24 hr day/$250 week</strong></p>
     <p>Performance Paddle Boards complete with grip-pad, Paddle & Wheels for easy accessibility</p>
 
-    <h4>Soft Surfboard Racks</h4>
+    <h4>SOFT SURFBOARD RACKS</h4>
     <p><strong>$10 flat rate with surfboard rental</strong></p>
     <p><strong>$10 day/$30 week with no surfboard rental</strong></p>
     <p>Surf Racks fit most rental cars</p>

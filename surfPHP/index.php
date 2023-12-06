@@ -90,7 +90,7 @@
   </div>
   <ul>
     <li><img src="./photos/slide1.jpg" alt=""></li>
-     <li><img src="./photos/slide2.jpg" alt=""></li>
+     <li class="special-image"><img src="./photos/slide2.jpg" alt=""></li>
     <li><img src="./photos/slide3.jpg" alt=""></li>
     <li><img src="./photos/slide6.jpg" alt=""></li>
     <li><img src="./photos/slide7.jpg" alt=""></li>
