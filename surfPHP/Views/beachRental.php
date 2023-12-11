@@ -60,7 +60,7 @@
   
 <div>
 <div class='rentals'>
-    <h2>BEACH RENTALS</h2>
+    <h1>BEACH RENTALS</h1>
     <p class="centered-text">We don't reserve gear in advance, however we have lots of equipment so just come in early for the best selection. 
     A credit card & ID are preferred to begin a rental account and an adult should accompany any minors. 
     Please note: We stop receiving rental returns 30 minutes before we close!</p>
@@ -100,25 +100,26 @@
 
   <div class="right-column">
     
-    <h3>SURFBOARD RENTALS (Hourly/Daily(24 hrs)/Weekly)</h3>
+    <h3>SURFBOARD RENTALS</h3> 
+      <p>(Hourly/Daily(24 hrs)/Weekly)</p>
     
-    <h4>SOFT BOARDS</h4>
+    <h3>SOFT BOARDS</h3>
     <p><strong>$10 hour/$30 day/$90 week</strong></p>
     <p>For Beginners & Refreshers- Excellent floatation that are perfect for beginners and intermediate alike. Lengths range from 5'6" to 10 feet</p>
 
-    <h4>HARD BOARDS (epoxy)</h4>
+    <h3>HARD BOARDS (epoxy)</h3>
     <p><strong>$12 hour/$40 day/$120 week</strong></p>
     <p>For more intermediate and experienced surfers.</p>
 
-    <h4> PREMIUM PERFORMANCE BOARDS</h4>
+    <h3> PREMIUM PERFORMANCE BOARDS</h3>
     <p><strong>$20 hour/$60 day/$180 week</strong></p>
     <p>For Experienced Surfers, we have an extensive range of epoxy performance boards from 5’2” to 10’</p>
 
-    <h4>STAND-UP-PADDLE BOARDS (SUP)</h4>
+    <h3>STAND-UP-PADDLE BOARDS (SUP)</h3>
     <p><strong>$20 hour/$60 open to close/$80 24 hr day/$250 week</strong></p>
     <p>Performance Paddle Boards complete with grip-pad, Paddle & Wheels for easy accessibility</p>
 
-    <h4>SOFT SURFBOARD RACKS</h4>
+    <h3>SOFT SURFBOARD RACKS</h3>
     <p><strong>$10 flat rate with surfboard rental</strong></p>
     <p><strong>$10 day/$30 week with no surfboard rental</strong></p>
     <p>Surf Racks fit most rental cars</p>

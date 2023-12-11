@@ -956,7 +956,7 @@ body {
 
 .slider-frame {
   width: 100%; 
-  height: 600px;
+  height: 50%;
   overflow: hidden;
   font-size: 25px;
   position: relative;
@@ -968,22 +968,25 @@ body {
   display: flex;
   padding: 0;
   width: 1000%; 
-  height: 100%;
+ 
     animation: slide 60s infinite linear;
 }
 
 .slider-frame li {
   list-style: none;
   width: 10%;
-  height: 120%;
+  overflow: hidden;
+
 }
 
 .slider-frame img {
   width: 100%; 
-  height: 200%; 
   object-fit: cover;
   opacity: 0.8;
+  
 }
+
+
 
 
 @keyframes slide {
@@ -1113,7 +1116,7 @@ body {
   margin-top: 80px;
 }
 
-.rentals h2 {
+.rentals h1 {
   font-weight: bold;
   text-align: center;
   width: 100%; 
@@ -1143,9 +1146,6 @@ body {
   margin-bottom: 8px;
 }
 
-
-
-
 .rentals {
   display: flex;
   flex-wrap: wrap;
@@ -1154,11 +1154,11 @@ body {
   margin-top: 80px;
 }
 
-.rentals h2 {
+.rentals h1 {
   font-weight: bold;
   text-align: center;
   width: 100%; 
-  color: #fefefe;
+  color: orange;
 }
 
 .rentals p {
@@ -1184,8 +1184,6 @@ body {
   box-sizing: border-box;
  
 }
-
-
 
 .left-column h3,
 .right-column h3 {
@@ -1220,20 +1218,21 @@ body {
 }
  .beach-rentals {
       background-image: url("../photos/slide7.jpg");
-      /* Añade más propiedades CSS para el fondo si lo deseas */
-      background-size: cover; /* Para ajustar la imagen al tamaño del body */
-      /* Otros estilos que desees agregar al body */
+      background-size: cover; 
+      
     }
 
-
-
-
-
-
-
-
-
-
+      .right-column h3,
+  .left-column h3,
+  .right-column h4 {
+    color: orange;
+    font-weight: bold;
+   
+  }
+ .rentals h2{
+    color: orange;
+   
+  }
 /*Responsive Media Queries*/
 @media(max-width:900px) {
 
@@ -1364,59 +1363,6 @@ body {
 }
 
 
-  
-
-  /*.contenido{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.35);
-  }
-
-  .contenido h3{
-    width: 100%;
-    color: #fff;
-  }
-
-  .contenido p{
-    display:none;
-  }
-  
-  .contenido a{
-    margin-top: 20px;
-  }
-  .buttonBL{
-    margin-top: 50px;
-  }
-
-  .container-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .card {
-    width: 90%;
-    height: 100px;
-    margin: auto;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    overflow: hidden;
-
-    box-shadow: 0px 1px 10px(189, 160, 105);
-    cursor: default;
-    transition: all 400ms ease;
-  }
-
-  .overlay-icons{
-    display:none;
-  }
-
-  .dollar-icon{
-    display:none;
-  }*/
-
   .card2{
    max-width: 93%;
   }
@@ -1528,25 +1474,23 @@ body {
   height: 70%;
   justify-content: center;
   text-align: center;
- font-weight: 530;
-   
+ font-weight: 530; 
    margin-bottom: 15px;
    padding: 20px;
   font-size: 16px;
   color: #777272
    
 }
-
-.over{
-  display: none;
-}
-.overp{
- display: block;
-  position: relative; 
-  top: 250px; 
-
+.overlayslide.over p {
+  
+ font-size: 1px;
 }
 
+.our-history::before,
+.our-history::after {
+ background-color: rgba(0, 0, 0, 0.2); 
+  
+}
 .overp span {
   display: block; 
 }
@@ -1556,7 +1500,31 @@ body {
   
     width: 150%;
   
-    font-size: 1.5rem; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    font-size: 1.5rem; 
   }
 
+.rental-columns {
+      flex-direction: column; 
+    }
+
+    .left-column,
+    .right-column {
+      width: 80%; 
+    }
+
+  .right-column h3,
+  .left-column h3,
+  .right-column h4 {
+    color: orange;
+    font-weight: bold;
+  }
+ .rentals h2{
+    color: orange;
+    font-weight: bold;
+  }
+.rentals p{
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+}
 }
