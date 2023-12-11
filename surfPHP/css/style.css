@@ -477,7 +477,7 @@ nav {
 .footer {
  background-color: #3ea6a1;
   display: flex;
-  justify-content: space-around; /* Cambiado a space-around para distribuir uniformemente */
+  justify-content: space-around; 
   color: white;
   padding: 80px;
   font-family: 'Fink Sands', sans-serif;
@@ -539,8 +539,8 @@ i {
 .column1,
 .column2,
 .column3 {
-  flex: 1; /* Hace que las columnas ocupen el mismo espacio */
-  text-align: center; /* Centra el contenido dentro de cada columna */
+  flex: 1; 
+  text-align: center;
 }
 
 /*shop*/
