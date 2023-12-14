@@ -59,7 +59,7 @@
 
 
     <div class="photo-poipu">
-      <img src="../photos/Webp.net-resizeimage.jpg" alt="" />
+      <img src="../photos/portadasurf.jpg" alt="portada" />
       <div class="text-img">
        
         <h1>
