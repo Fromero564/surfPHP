@@ -59,17 +59,17 @@
 
 
     <div class="photo-poipu">
-      <img src="../photos/portadasurf.jpg" alt="portada" />
+      <img src="../photos/portadasurf.jpeg" alt="portada" />
       <div class="text-img">
-       
         <h1>
-          Rochelle Ballard Surf Experience
-          Kauai’s Best Surf School
-        </h1>
+        Rochelle Ballard Surf Experience </h1>
+        <h2>Kauai’s Best Surf School </h2>
+       
       </div>
+     
     </div>
    
-
+   
       <div class='frase'>
        <p>
             Rochelle Ballard offers an unparalleled opportunity to learn from a true surfing legend.  
