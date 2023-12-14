@@ -59,12 +59,8 @@
 
   
 <div>
-<div class='rentals'>
-    <h1>BEACH RENTALS</h1>
-    <p class="centered-text">We don't reserve gear in advance, however we have lots of equipment so just come in early for the best selection. 
-    A credit card & ID are preferred to begin a rental account and an adult should accompany any minors. 
-    Please note: We stop receiving rental returns 30 minutes before we close!</p>
-  
+  <div class='rentals'>
+<h1>BEACH RENTALS</h1>
 </div>
 <section class="rental-columns">
 <div class="left-column">
@@ -126,6 +122,13 @@
   </div>
 
 </section>
+<div class='rentals'>
+   
+    <p class="centered-text">We don't reserve gear in advance, however we have lots of equipment so just come in early for the best selection. 
+    A credit card & ID are preferred to begin a rental account and an adult should accompany any minors. 
+    Please note: We stop receiving rental returns 30 minutes before we close!</p>
+  
+</div>
 </div>
 
 

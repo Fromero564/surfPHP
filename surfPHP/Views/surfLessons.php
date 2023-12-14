@@ -64,8 +64,8 @@
        
         <h1>
           Rochelle Ballard Surf Experience
+          Kauai’s Best Surf School
         </h1>
-       <h1>Kauai’s Best Surf School</h1>
       </div>
     </div>
    

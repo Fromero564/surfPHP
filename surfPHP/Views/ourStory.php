@@ -63,22 +63,20 @@
 <div class='our-history-home'>
     <div class="overlayslideOurStory">
 
-     <p> Aloha! We have been an ohana Surf Shop since 1995 established with our Kauai based ohana and surfing roots
+     <p> 
+      Aloha! We have been an ohana Surf Shop since 1995 established with our Kauai based ohana and surfing roots
          and lifestyle from our Papa Klyde surfing and canoe paddling with the Kahanamoku brothers in Waikiki to his son Robert 
          French surfing and fishing.  I am Christine French, the surf mom that loves to be there to support and provide for my 
          whole ohana with love and encouragement.
-
- For the most part our ohana grew up right here on the south shore and in Poipu.  We all enjoyed the ocean from a few months old. 
-   It was and is our playground to this day.   
-Swimming, bodyboarding, surfing, snorkeling, fishing, diving, and boating are all a big part of our lifestyle. 
-
- Our oldest daughter, Rochelle Ballard, became a world famous professional surfer and established herself as the pioneer of women’s 
+        For the most part our ohana grew up right here on the south shore and in Poipu.  We all enjoyed the ocean from a few months old. 
+        It was and is our playground to this day.   
+        Swimming, bodyboarding, surfing, snorkeling, fishing, diving, and boating are all a big part of our lifestyle. 
+         Our oldest daughter, Rochelle Ballard, became a world famous professional surfer and established herself as the pioneer of women’s 
   barrel riding and big wave surfing.  Our youngest son Kainoa became passionate about bodyboarding and surfing the world famous Pipeline.  
   To this day he loves bodyboarding Nukumoi and other shallow reef barreling waves.  Hoku, our oldest son, grew up surfing and SUP surfing, hiking, and canoe paddling. 
    They are all fish out of the water and great skilled watermen and women.  My two youngest daughters Kelly and Jessica,  love playing 
    around on their longboards and enjoying the beach and swimming in the ocean.  
 All of our grandchildren are just like our kids, always at the beach and enjoying the ocean and beach lifestyle that we all love.  
-
  We started Nukumoi Surf Shop to share that lifestyle with our community and visitors, from surf school recently led by Rochelle,
    to all of the ocean and beach and surfing equipment to bikinis, board shorts, rashguards and the endless summer beach lifestyle
     products, that provide the best experience and enjoyment on our beloved sunny south shore of Poipu.   We are here for you! 
@@ -86,9 +84,8 @@ All of our grandchildren are just like our kids, always at the beach and enjoyin
 
 E komo mai and aloha 
 
-From our ohana to yours!</p>
-  
-
+From our ohana to yours!
+</p>
      
   </div>
    <ul>

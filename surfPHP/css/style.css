@@ -795,7 +795,7 @@ i {
 
 .overlayslideOurStory p{
   padding: 0;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: bold;
   max-width: 80%;
   max-height: 80%;
@@ -958,6 +958,7 @@ i {
 .text-img h2 {
   color: #fefefe;
   margin: 0px;
+  margin-top: -200px;
   font-size: 55px;
   padding: 10px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
@@ -1128,7 +1129,7 @@ body {
   display: flex;
   gap: 10px; 
   justify-content: center; 
-  margin-top: 15px;
+  margin-top: 30px;
 }
 .overp{
   display: none;
@@ -1593,7 +1594,7 @@ body {
  .text-img h1{
     position: relative;
     top: 30;
-  
+    margin-top: -50px;
     width: 150%;
   
     font-size: 1.5rem; 
