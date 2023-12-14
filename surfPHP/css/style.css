@@ -783,7 +783,7 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  flex-direction: column;
   width: 100%;
   top: 50%;
   left: 50%;
@@ -792,6 +792,8 @@ i {
   color: white;
   z-index: 1;
 }
+
+
 
 .overlayslideOurStory p{
   padding: 0;
@@ -1416,7 +1418,7 @@ body {
 
   /*Our Story*/
   .slider-frameOurStory{
-    width: 90%;
+    width: 100%;
     font-weight: bold;
 
   }
@@ -1427,6 +1429,8 @@ body {
     box-sizing: content-box;
     
   }
+
+
 
   /*Cards lessons*/
 
