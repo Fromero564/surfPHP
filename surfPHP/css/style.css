@@ -943,28 +943,26 @@ i {
   z-index: 0;
   margin: 20px;
   font-weight: bold;
-
+  margin-top: -200px;
 }
 
 .text-img h1 {
   color: #fefefe;
   margin: 0px;
-  margin-top: -200px;
-  padding: 10px;
+  padding: 5px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
   font-weight: 800;
-  font-size: 3.3rem; 
+  font-size: 4rem; 
   line-height: 1.25;
 }
 
 .text-img h2 {
   color: #fefefe;
   margin: 0px;
-  padding: 10px;
+  padding: 5px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
   font-weight: 800;
-  font-size: 2.8rem; 
-  line-height: 1.25;
+  font-size: 2.2rem; 
 }
 
 
@@ -1438,18 +1436,7 @@ body {
     height: 300px;
   }
 
-  .photo-poipu h1{
-    top: -55px;
-    margin-left: -25px;
-  }
- 
-  .text-img h2{
-    display:none;
-  }
 
-  .text-img p {
-    display: none;
-  }
 
   /*collage home*/
    .slider-frame.slider-history {
@@ -1595,13 +1582,30 @@ body {
 .overp span {
   display: block; 
 }
+ 
+.text-img{
+  margin-top:-80px;
+ }
+
+  .text-img p {
+    display: none;
+  }
+
  .text-img h1{
     position: relative;
-    margin-top: -50px;
     width: 120%;
     font-weight: 800;
     font-size: 1.25rem;
+    padding:0;
   }
+.text-img h2{
+  margin:0;
+  padding: 0;
+  width: 120%;
+  font-weight: 800;
+  font-size:0.5rem;
+
+}
 
 .rental-columns {
       flex-direction: column; 

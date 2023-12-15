@@ -174,7 +174,7 @@
 
       <h3> <div class="image-container">
           <div class="button-container our-story-btn-responsive">
-         <a href="./Views/ourStory.php" class="our-history custom-class"><span>OUR HISTORY</span></a>
+         <a href="./Views/ourStory.php" class="button"><span>OUR HISTORY</span></a>
          </div>
       </h3>
   </div>
