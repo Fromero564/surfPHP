@@ -82,8 +82,8 @@
 
 <div class='slider-frame'>
   <div class="overlayslide">
-    <h3 class='orange'>Surf Lessons & Guide Surf Experience the best on Kauai for all the levels</h3>
-    <div class='button-container'>
+    <h3 class='orange'>Surf Lessons & Guide Surf Experience the best on Kauai <br> for all the levels</h3>
+    <div class='button-container-class'>
       <button class="btn">BOOK NOW</button>
     <button class="btn">LEARN MORE</button>
   </div>

@@ -791,6 +791,7 @@ i {
   text-align: center;
   color: white;
   z-index: 1;
+  margin-top:-15vh;
 }
 
 
@@ -923,7 +924,6 @@ i {
 .photo-poipu {
   position: relative;
   width: 100%;
-  height: 900px;
   overflow: hidden;
 }
 
@@ -1130,6 +1130,13 @@ body {
   gap: 10px; 
   justify-content: center; 
   margin-top: 30px;
+}
+
+.button-container-class {
+  display: flex;
+  gap: 10px; 
+  justify-content: center; 
+  margin-top: 80px;
 }
 .overp{
   display: none;
@@ -1570,8 +1577,7 @@ body {
    
 }
 .overlayslide.over p {
-  
- font-size: 1px;
+  display:none;
 }
 
 .our-history::before,
