@@ -10,7 +10,8 @@
 
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Tu Sitio Web</title>
+    <link rel="shortcut icon" href="../photos/NukumoiRetroLogo.jpeg">
+    <title>Surf Shop | Nukumoi Surf Co.</title>
   </head>
 
   <nav class="menu-noresponsive sticky" id="menu-noresponsive">

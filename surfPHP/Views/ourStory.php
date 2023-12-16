@@ -24,7 +24,8 @@
     <!--Our CSS-->
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Tu Sitio Web</title>
+    <link rel="shortcut icon" href="../photos/NukumoiRetroLogo.jpeg">
+    <title>Our Story | Nukumoi Surf Co.</title>
   </head>
   <body>
   <nav class="menu-noresponsive sticky" id="navnoresponsive" >
