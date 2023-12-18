@@ -58,11 +58,12 @@
     </div>
 
   <body>
+<div class='ourHistoryImage'>
+<img src="../photos/ourStoryHome.jpeg" alt="">
+
+</div>
 
 
-<div class='slider-frameOurStory'>
-<div class='our-history-home'>
-     <div class="background-text-ourhistory">
     <div class="overlayslideOurStory">
 
      <p> 
@@ -94,22 +95,6 @@ All of our grandchildren are just like our kids, always at the beach and enjoyin
 
 <p>From our ohana to yours!
 </p>
-     
-  </div>
-   <ul>
-    <li><img src="../photos/history1.jpg" alt=""></li>
-     <li><img src="../photos/history2.jpg" alt=""></li>
-    <li><img src="../photos/history3.jpg" alt=""></li>
-    <li><img src="../photos/history4.jpeg" alt=""></li>
-    <li><img src="../photos/history5.jpg" alt=""></li>
-    <li><img src="../photos/history6.png" alt=""></li>
-    <li><img src="../photos/history7.jpg" alt=""></li>
-    <li><img src="../photos/history8.png" alt=""></li>
-    <li><img src="../photos/history9.jpg" alt=""></li>
-    <li><img src="../photos/history10.jpg" alt=""></li>
-  </ul>
-</div>
-</div>
 </div>
 
 
@@ -146,12 +131,12 @@ All of our grandchildren are just like our kids, always at the beach and enjoyin
     <div class="column3">
       <h3>QUICK LINKS</h3>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">OUR STORY</a></li>
-        <li><a href="#">SURF LESSONS</a></li>
-        <li><a href="#">BEACH RENTAL</a></li>
-        <li><a href="#">SHOP</a></li>
-        <li><a href="#">SURF GUIDE</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="ourStory.html">OUR STORY</a></li>
+        <li><a href="surfLessons.html">SURF LESSONS</a></li>
+        <li><a href="beachRental.html">BEACH RENTAL</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="surfGuide.html">SURF GUIDE</a></li>
       </ul>
     </div>
   </footer>

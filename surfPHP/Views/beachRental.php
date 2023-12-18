@@ -168,13 +168,13 @@
       </div>
     <div class="column3">
       <h3>QUICK LINKS</h3>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">OUR STORY</a></li>
-        <li><a href="#">SURF LESSONS</a></li>
-        <li><a href="#">BEACH RENTAL</a></li>
-        <li><a href="#">SHOP</a></li>
-        <li><a href="#">SURF GUIDE</a></li>
+       <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="ourStory.html">OUR STORY</a></li>
+        <li><a href="surfLessons.html">SURF LESSONS</a></li>
+        <li><a href="beachRental.html">BEACH RENTAL</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="surfGuide.html">SURF GUIDE</a></li>
       </ul>
     </div>
   </footer>

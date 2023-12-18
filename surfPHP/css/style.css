@@ -351,7 +351,8 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: contrast(110%);
+   filter: brightness(95%) contrast(90%);
+   image-rendering: optimizeQuality;
   
 }
 
@@ -714,12 +715,12 @@ i {
   border-radius: 15px;
   margin-top: 10px;
   transition: background 0.2s;
+  font-weight: bold;
 }
 
 .button:hover {
   background: #ff9900;
 }
-
 
 
 /*Our Family*/
@@ -777,33 +778,40 @@ i {
  
 }
 
+.ourHistoryImage img{
+  width: 100%;
+    filter: sepia(30%) saturate(140%) brightness(130%) contrast(75%);
+    margin-top: 3%;
+  
+  
+}
 
 .overlayslideOurStory {
-  position: absolute;
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: black;
   z-index: 1;
-  margin-top:-15vh;
+  margin-top: 3%;
+  
 }
 
 
 
 .overlayslideOurStory p{
   padding: 0;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
   max-width: 80%;
   max-height: 80%;
   box-sizing: content-box;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
 .section-history {
   height: 400px;
   display: flex;
@@ -1136,7 +1144,7 @@ body {
   display: flex;
   gap: 10px; 
   justify-content: center; 
-  margin-top: 80px;
+ 
 }
 .overp{
   display: none;
@@ -1191,19 +1199,23 @@ body {
 .rental-columns{ 
   display: flex;
   justify-content: space-around;
+  margin-bottom: -6%;
 }
 .rentals {
   display: flex;
   flex-wrap: wrap;
    align-items: flex-start;
   justify-content: space-between;
-  margin-top: 80px;
+ 
+
+ 
 }
 
 .rentals h1 {
   font-weight: bold;
   text-align: center;
   width: 100%; 
+   margin: 40px;
 }
 
 .rentals p {
@@ -1212,7 +1224,8 @@ body {
   margin-left: 16%;
   text-align: center;
   font-size: 25px;
-  margin-bottom: 30px; 
+ 
+
 }
 
 
@@ -1436,7 +1449,6 @@ body {
   }
 
 
-
   /*Cards lessons*/
 
   .photo-poipu{
@@ -1559,10 +1571,11 @@ body {
 
 .overlayslide h3 {
   width: 80%;
-  height: 63px;
-  font-size: 25px;
+  height: 32px;
+  font-size: 23px;
    margin-bottom: 50px;
   font-weight: bold;
+ 
 }
 .frase p{
   width: 90%;
@@ -1573,7 +1586,8 @@ body {
    margin-bottom: 15px;
    padding: 20px;
   font-size: 16px;
-  color: #777272
+  color: #777272;
+  margin-top: -65px;
    
 }
 .overlayslide.over p {
@@ -1591,6 +1605,7 @@ body {
  
 .text-img{
   margin-top:-80px;
+
  }
 
   .text-img p {
@@ -1628,13 +1643,53 @@ body {
     color: orange;
     font-weight: bold;
   }
+  .rentals h1{
+  
+    margin: auto;
+  }
+
+  
  .rentals h2{
     color: orange;
     font-weight: bold;
   }
 .rentals p{
-  margin-top: 25px;
+  margin-top: -80px;
   font-size: 20px;
   text-align: center;
 }
+
+.ourHistoryImage img{
+  width: 100%;
+  filter: sepia(30%) saturate(140%) brightness(130%) contrast(75%);
+  margin-top: -3%;  
+}
+
+.overlayslideOurStory p{
+  padding: 0;
+  font-size: 12px;
+  max-width: 80%;
+  max-height: 80%;
+  box-sizing: content-box;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer .column1 ul li {
+  
+  display: flex;
+  align-items: center;
+}
+
+.footer .column1 ul li.email {
+  white-space: nowrap; /* Evita que el texto se divida */
+}
+.fa-phone{
+ margin-left: 30px;
+}
+.button-container-class{
+  
+  margin-top: -27px;
+}
+
 }
