@@ -80,18 +80,21 @@ nav {
 .menuvideo{
   width: 100vw;
   position: absolute;
-  display:flex;
+  display: flex;
   justify-content: space-around;
+  z-index: 2;
+  background:none;
+  color:#000;
 }
 
 .navegationmenuvideo{
- 
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   padding: 0;
   text-align: center;
+  z-index: 200; 
 
 }
 
@@ -120,6 +123,7 @@ nav {
   margin-top: 10px;
   object-fit: cover;
   border-radius: 50%;
+ z-index: 2; 
 }
 /* nav con posición fija*/
 
@@ -225,18 +229,22 @@ nav {
 
 /* first box*/
 #promoSection {
-  height: 100vh; 
+  position: relative; 
+  height: 100vh;
   overflow: hidden;
-  transition: height 0.5s ease; 
+  transition: height 0.5s ease;
+
 }
 .promo-box {
-  background-image: url('tu-video-en-produccion.jpg');
-  background-size: cover;
-  background-position: center;
+  position: relative; 
   text-align: center;
   padding: 150px 0;
-  background-color: #554123;
   margin-bottom: 45px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: 1; 
 }
 
 .promo-box h1 {
@@ -245,6 +253,8 @@ nav {
   color: black;
   margin-bottom: 20px;
   font-weight: bold;
+  position: relative;
+  z-index:200;
 }
 
 .book-now-button {
@@ -257,10 +267,21 @@ nav {
   font-weight: bold;
   font-size: 18px;
   transition: background-color 0.3s;
+  position: relative;
+  z-index:200;
 }
 
 .book-now-button:hover {
   background-color: #ff7700;
+}
+.video-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
 }
 
 /* surf lessons */

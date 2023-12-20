@@ -17,11 +17,11 @@
   <nav class="menu-noresponsive sticky" id="menu-noresponsive">
   <ul class="navigation" id="mainMenu">
         <img src="../photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
-        <li><a href="../index.php">HOME</a></li>
-        <li><a href="./ourStory.php">OUR STORY</a></li>
-        <li><a href="./surfLessons.php">SURF LESSONS</a></li>
-        <li><a href="./beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="./shop.php">SHOP</a></li>
+        <li><a href="../index">HOME</a></li>
+        <li><a href="./ourStory">OUR STORY</a></li>
+        <li><a href="./surfLessons">SURF LESSONS</a></li>
+        <li><a href="./beachRental">BEACH RENTAL</a></li>
+        <li><a href="./shop">SHOP</a></li>
         <img src="../photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -32,24 +32,24 @@
       <i class="fas fa-times"></i>
       <nav>
         <ul>
-          <li><a href="../index.php">HOME</a></li>
-          <li><a href="./ourStory.php">OUR STORY</a></li>
+          <li><a href="../index">HOME</a></li>
+          <li><a href="./ourStory">OUR STORY</a></li>
           <li class="has-submenu">
             <input type="checkbox" id="surfLessonsToggle" class="toggle" />
             <label for="surfLessonsToggle" class="hoverable">
               <span class="hoverable">SURF LESSONS</span></label
             ><i class="fa-solid fa-angle-down"></i>
             <ul class="submenu">
-              <li><a href="./poipuBeachSurf.php">POIPU BEACH SURF</a></li>
-              <li><a href="./privateLessons.php">PRIVATE LESSONS</a></li>
+              <li><a href="./poipuBeachSurf">POIPU BEACH SURF</a></li>
+              <li><a href="./privateLessons">PRIVATE LESSONS</a></li>
               <li>
-                <a href="./surfGuideForAdvanced.php">SURF GUIDE FOR ADVANCED</a>
+                <a href="./surfGuideForAdvanced">SURF GUIDE FOR ADVANCED</a>
               </li>
-              <li><a href="./rochelleBallard.php">ROCHELLE BALLARD</a></li>
+              <li><a href="./rochelleBallard">ROCHELLE BALLARD</a></li>
             </ul>
           </li>
-          <li><a href="./beachRental.php">BEACH RENTAL</a></li>
-          <li><a href="./shop.php">SHOP</a></li>
+          <li><a href="./beachRental">BEACH RENTAL</a></li>
+          <li><a href="./shop">SHOP</a></li>
         </ul>
       </nav>
     </div>
@@ -181,12 +181,11 @@ foreach ($productosHats as $productoHat) {
     <div class="column3">
       <h3>QUICK LINKS</h3>
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="ourStory.html">OUR STORY</a></li>
-        <li><a href="surfLessons.html">SURF LESSONS</a></li>
-        <li><a href="beachRental.html">BEACH RENTAL</a></li>
-        <li><a href="shop.html">SHOP</a></li>
-        <li><a href="surfGuide.html">SURF GUIDE</a></li>
+      <li><a href="../index">HOME</a></li>
+        <li><a href="./ourStory">OUR STORY</a></li>
+        <li><a href="./surfLessons">SURF LESSONS</a></li>
+        <li><a href="./beachRental">BEACH RENTAL</a></li>
+        <li><a href="./shop">SHOP</a></li>
       </ul>
     </div>
   </footer>

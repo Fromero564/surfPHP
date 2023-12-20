@@ -34,11 +34,11 @@
     <nav class="menu-noresponsiveIndex sticky" id="navnoresponsive" >
       <ul class="navigation" id="mainMenu">
         <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logo-surf" />
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="Views/ourStory.php">OUR STORY</a></li>
-        <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
-        <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="Views/shop.php">SHOP</a></li>
+        <li><a href="index">HOME</a></li>
+        <li><a href="Views/ourStory">OUR STORY</a></li>
+        <li><a href="Views/surfLessons">SURF LESSONS</a></li>
+        <li><a href="Views/beachRental">BEACH RENTAL</a></li>
+        <li><a href="Views/shop">SHOP</a></li>
         <img src="./photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -51,12 +51,12 @@
       <i class="fas fa-times"></i>
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="Views/ourStory.php">OUR STORY</a></li>
-           <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
+          <li><a href="">HOME</a></li>
+          <li><a href="Views/ourStory">OUR STORY</a></li>
+           <li><a href="Views/surfLessons">SURF LESSONS</a></li>
          
-          <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
-          <li><a href="Views/shop.php">SHOP</a></li>
+          <li><a href="Views/beachRental">BEACH RENTAL</a></li>
+          <li><a href="Views/shop">SHOP</a></li>
         </ul>
       </nav>
     </div>
@@ -64,18 +64,24 @@
     <img src="./photos/NukumoiRetroLogo.jpeg" alt="Logo" class="logomenuvideo" />
     <ul class="navegationmenuvideo" id="">
       
-        <li><a href="#">HOME</a></li>
-        <li><a href="Views/ourStory.php">OUR STORY</a></li>
-        <li><a href="Views/surfLessons.php">SURF LESSONS</a></li>
-        <li><a href="Views/beachRental.php">BEACH RENTAL</a></li>
-        <li><a href="Views/shop.php">SHOP</a></li>
+        <li><a href="">HOME</a></li>
+        <li><a href="Views/ourStory">OUR STORY</a></li>
+        <li><a href="Views/surfLessons">SURF LESSONS</a></li>
+        <li><a href="Views/beachRental">BEACH RENTAL</a></li>
+        <li><a href="Views/shop">SHOP</a></li>
       </ul>
       <img src="./photos/logosurf.jpg" alt="Logo" class="logomenuvideo" />
+     
       </div>
 
     <section class="promo-box" id="promoSection">
+    <video autoplay loop muted playsinline class="video-background">
+    <source src="./photos/nukumoifinal01.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
       <h1>Rochelle Ballard Surf Experience ~ Kauai's Best Surf School</h1>
-      <a href="surfLessons.html" class="book-now-button">BOOK NOW</a>
+      <a href="./Views/surfLessons" class="book-now-button">BOOK NOW</a>
+      <a href="https://www.youtube.com/watch?v=jwKtZMcgjK4" class="book-now-button" target="_blank">Find us on YouTube</a>
     </section>
      <!--start carrusel surf lessons -->
 
@@ -124,28 +130,28 @@
           <img src="./photos/menShop/men1.jpg" alt="Producto 3" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR</h2>
-            <a href="./Views/shop.php#men-section" class="button">Shop Now</a>
+            <a href="./Views/shop#men-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/womenShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="Producto 1" />
           <div class="overlay">
             <h2 class="description">WOMENS LOGOWEAR</h2>
-            <a href="./Views/shop.php#women-section" class="button">Shop Now</a>
+            <a href="./Views/shop#women-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/kidsShop/kids1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">KIDS LOGOWEAR</h2>
-            <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
+            <a href="./Views/shop#children-section" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">HAT</h2>
-            <a href="./Views/shop.php#children-section" class="button">Shop Now</a>
+            <a href="./Views/shop#children-section" class="button">Shop Now</a>
           </div>
           </div>
       </div>
@@ -154,7 +160,7 @@
           <div class="photo">
           <img src="./photos/menShop/men1.jpg" alt="Producto 2" />
           <div class="overlay">
-            <a href="./Views/shop.php" class="button">Shop Now</a>
+            <a href="./Views/shop" class="button">Shop Now</a>
           </div>
           </div>
     </section>
@@ -176,7 +182,7 @@
 
       <h3> <div class="image-container">
           <div class="button-container our-story-btn-responsive">
-         <a href="./Views/ourStory.php" class="button"><span>OUR HISTORY</span></a>
+         <a href="./Views/ourStory" class="button"><span>OUR HISTORY</span></a>
          </div>
       </h3>
   </div>
@@ -382,12 +388,12 @@
       <div class="column3">
         <h3>QUICK LINKS</h3>
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="ourStory.html">OUR STORY</a></li>
-          <li><a href="surfLessons.html">SURF LESSONS</a></li>
-          <li><a href="beachRental.html">BEACH RENTAL</a></li>
-          <li><a href="shop.html">SHOP</a></li>
-          <li><a href="surfGuide.html">SURF GUIDE</a></li>
+          <li><a href="index">HOME</a></li>
+          <li><a href="./Views/ourStory">OUR STORY</a></li>
+          <li><a href="./Views/surfLessons">SURF LESSONS</a></li>
+          <li><a href="./Views/beachRental">BEACH RENTAL</a></li>
+          <li><a href="./Views/shop">SHOP</a></li>
+        
         </ul>
       </div>
     </div>
