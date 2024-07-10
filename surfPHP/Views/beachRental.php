@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="shortcut icon" href="../photos/NukumoiRetroLogo.jpeg">
     <title>Beach Rental | Nukumoi Surf Co.</title>
+
   </head>
   <body>
   <nav class="menu-noresponsive sticky" id="navnoresponsive" >

@@ -207,6 +207,84 @@ nav {
   font-size: 17px;
 }
 
+/*pop-up de cookies*/
+.cookies-advice{
+  display: none;
+  background: #fff;
+  padding: 20px;
+  width:calc(100%-40px);
+  max-width: 300px;
+  line-height: 150%;
+  border-radius: 10px;
+  position: fixed;
+  bottom:20px;
+  left:20px;
+  z-index: 100;
+  padding-top:60px;
+  box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+  text-align: center;
+}
+
+.cookies-advice.active{
+  display: block;
+}
+
+.cookies-advice .cookie{
+  max-width:100px;
+  position:absolute;
+  top:-51px;
+  left:calc(50% - 50px);
+}
+
+.cookies-advice .cookie-title,
+.cookies-advice .parragraph-cookie{
+  margin-bottom: 15px;
+}
+
+.cookies-advice .button-cookie{
+  width: 100%;
+  background-color: #ff9900;
+  border:none;
+  color:#fff;
+  text-align: center;
+  padding: 15px 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.cookies-advice .button-cookie:hover{
+  background-color: #ff7700;
+}
+
+.cookies-advice .cookie-link{
+  color:#00aaff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cookies-advice .cookie-link:hover{
+  text-decoration: underline;
+}
+
+.background-cookie-advice{
+  display:none;
+  background: rgba(0,0,0,.80);
+  position: fixed;
+  z-index:99;
+  width:100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+}
+
+.background-cookie-advice.active{
+  display: block;
+}
+
 
 /* Estilos para el indicador de flecha */
 

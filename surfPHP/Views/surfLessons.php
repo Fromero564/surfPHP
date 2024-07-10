@@ -27,6 +27,7 @@
     <link rel="shortcut icon" href="../photos/NukumoiRetroLogo.jpeg">
 
     <title>Surf Lessons| Nukumoi Surf Co.</title>
+
   </head>
   <body>
   <nav class="menu-noresponsive sticky" id="navnoresponsive" >

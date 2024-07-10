@@ -61,46 +61,56 @@
     </div>
 
   <body>
-<div class='ourHistoryImage'>
-<img src="../photos/ourStoryHome.jpeg" alt="">
+  <p>
+  Cookie Policy
+In compliance with the provisions of Article 22.2 of Law 34/2002, of July 11, on Information Society Services and Electronic Commerce, this website informs you, in this section, about the policy on the collection and treatment of cookies.
 
-</div>
+What are cookies?
+A cookie is a file that is downloaded to your computer when you access certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or their equipment and, depending on the information they contain and the way you use your equipment, they can be used to recognize the user.
+
+What types of cookies does this website use?
+This website uses the following types of cookies:
+
+Analysis Cookies:
+These are those that, either treated by us or by third parties, allow us to quantify the number of users and thus perform the measurement and statistical analysis of the use made by users of the service offered. To do this, we analyze your browsing on our website to improve the offer of products or services we offer you.
+
+Technical Cookies:
+These are those that allow the user to navigate through the restricted area and use its different functions, such as, for example, carrying out the purchase process of an article.
+
+Personalization Cookies:
+These are those that allow the user to access the service with some predefined general characteristics based on a series of criteria in the user's terminal, such as the language or the type of browser through which they connect to the service.
+
+Advertising Cookies:
+These are those that, either treated by this website or by third parties, allow the most efficient management of the advertising spaces on the website, adapting the content of the advertisement to the content of the requested service or the use made of our website. For this, we can analyze your browsing habits on the Internet and we can show you advertising related to your browsing profile.
+
+Behavioral Advertising Cookies:
+These are those that allow the management, in the most efficient way possible, of the advertising spaces that, where appropriate, the editor has included in a web page, application, or platform from which the requested service is provided. This type of cookies stores information on the behavior of visitors obtained through the continuous observation of their browsing habits, which allows developing a specific profile to show advertising based on it.
+
+Disabling cookies.
+You can allow, block, or delete the cookies installed on your computer by configuring the options of the browser installed on your computer.
+
+In most web browsers, the possibility is offered to allow, block, or delete the cookies installed on your computer.
+
+Below you can access the configuration of the most frequent web browsers to accept, install, or disable cookies:
+
+Configure cookies in Google Chrome
+Configure cookies in Microsoft Internet Explorer
+Configure cookies in Mozilla Firefox
+Configure cookies in Safari (Apple)
+Third-party cookies.
+This website uses third-party services to collect information for statistical purposes and web usage. DoubleClick cookies are used to improve the advertising included on the site. They are used to target advertising based on the content that is relevant to a user, thereby improving the quality of experience in using the site.
+
+Specifically, we use Google Adsense and Google Analytics services for our statistics and advertising. Some cookies are essential for the operation of the site, for example, the built-in search engine.
+
+Our site includes other functionalities provided by third parties. You can easily share the content on social networks like Facebook, Twitter, or Google+, with the buttons we have included for this purpose.
+
+Warning about deleting cookies.
+You can delete and block all cookies from this site, but part of the site will not work, or the quality of the web page may be affected.
+
+If you have any questions about our cookie policy, you can contact this website through our Contact channels.
 
 
-    <div class="overlayslideOurStory">
-
-     <p> 
-      Aloha! We have been an ohana Surf Shop since 1995 established with our Kauai based ohana and surfing roots
-         and lifestyle from our Papa Clyde French surfing and canoe paddling with the Kahanamoku brothers in Waikiki to his son Robert 
-         French surfing and fishing.  I am Christine French, the surf mom that loves to be there to support and provide for my 
-         whole ohana with love and encouragement.
-        </p>
-       <p>
-        For the most part our ohana grew up right here on the south shore and in Poipu.  We all enjoyed the ocean from a few months old. 
-        It was and is our playground to this day.
-        Swimming, bodyboarding, surfing, snorkeling, fishing, diving, and boating are all a big part of our lifestyle.  
-      </p> 
-
-         <p>Our oldest daughter, Rochelle Ballard, became a world famous professional surfer and established herself as the pioneer of women’s 
-  barrel riding and big wave surfing.  Our youngest son Kainoa became passionate about bodyboarding and surfing the world famous Pipeline.  
-  To this day he loves bodyboarding Nukumoi and other shallow reef barreling waves.  Hoku, our oldest son, grew up surfing and SUP surfing, hiking, and canoe paddling. 
-   They are all fish out of the water and great skilled watermen and women.  My two youngest daughters Kelly and Jessica,  love playing 
-   around on their longboards and enjoying the beach and swimming in the ocean.  
-All of our grandchildren are just like our kids, always at the beach and enjoying the ocean and beach lifestyle that we all love.
-</p>
-
- <p>We started Nukumoi Surf Shop to share that lifestyle with our community and visitors, from surf school recently led by Rochelle,
-   to all of the ocean and beach and surfing equipment to bikinis, board shorts, rashguards and the endless summer beach lifestyle
-    products, that provide the best experience and enjoyment on our beloved sunny south shore of Poipu.   We are here for you! 
-     Come in and check us out! </p>
-
-<p>E komo mai and aloha </p>
-
-<p>From our ohana to yours!
-</p>
-</div>
-
-
+  </p>
   </body>
   <footer class="footer">
    <div class="column1">
