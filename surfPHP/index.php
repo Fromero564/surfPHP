@@ -26,8 +26,19 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./photos/NukumoiRetroLogo.jpeg">
+
     
     <title>Surf Shop | Nukumoi Surf Co.</title>
+<style>
+@media(max-width:900px) {
+.webcam img{
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px #ff9900;
+    max-width: 90% !important;
+    height: auto !important;
+}
+}
+</style>
   </head>
 
   <body>
@@ -37,8 +48,9 @@
         <li><a href="index">HOME</a></li>
         <li><a href="Views/ourStory">OUR STORY</a></li>
         <li><a href="Views/surfLessons">SURF LESSONS</a></li>
+        <li><a href="https://www.nukumoi.com/Views/BeachWebcam">LIVE CAM</a></li>
         <li><a href="Views/beachRental">BEACH RENTAL</a></li>
-        <li><a href="Views/shop">SHOP</a></li>
+        <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
         <img src="./photos/logosurf.png" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -54,9 +66,9 @@
           <li><a href="">HOME</a></li>
           <li><a href="Views/ourStory">OUR STORY</a></li>
            <li><a href="Views/surfLessons">SURF LESSONS</a></li>
-         
+          <li><a href="https://www.nukumoi.com/Views/BeachWebcam">LIVE CAM</a></li>
           <li><a href="Views/beachRental">BEACH RENTAL</a></li>
-          <li><a href="Views/shop">SHOP</a></li>
+          <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
         </ul>
       </nav>
     </div>
@@ -67,8 +79,9 @@
         <li><a href="">HOME</a></li>
         <li><a href="Views/ourStory">OUR STORY</a></li>
         <li><a href="Views/surfLessons">SURF LESSONS</a></li>
+        <li><a href="https://www.nukumoi.com/Views/BeachWebcam">LIVE CAM</a></li>
         <li><a href="Views/beachRental">BEACH RENTAL</a></li>
-        <li><a href="Views/shop">SHOP</a></li>
+        <li><a href="https://store.nukumoi.com/">SHOP</a></li>
       </ul>
       <img src="./photos/logosurf.jpg" alt="Logo" class="logomenuvideo" />
      
@@ -79,9 +92,10 @@
     <source src="./photos/nukumoifinal01.mp4" type="video/mp4">
     Tu navegador no soporta el elemento de video.
   </video>
+
       <h1>Rochelle Ballard Surf Experience ~ Kauai's Best Surf School</h1>
       <a href="./Views/surfLessons" class="book-now-button">BOOK NOW</a>
-      <a href="https://www.youtube.com/watch?v=jwKtZMcgjK4" class="book-now-button" target="_blank">Find us on YouTube</a>
+    <!--  <a href="https://www.youtube.com/watch?v=jwKtZMcgjK4" class="book-now-button" target="_blank">Find us on YouTube</a>-->
     </section>
      <!--start carrusel surf lessons -->
 
@@ -89,11 +103,11 @@
 
 <div class='slider-frame'>
   <div class="overlayslide">
-    <h3 class='orange'>Surf Lessons & Guide Surf Experience the best on Kauai</h3>
+    <h3 class='orange'>Poipu Beach Premium Surf Lessons and Guide Surf Experiences</h3>
     <h3>For all levels</h3>
     <div class='button-container-class'>
-      <button class="btn">BOOK NOW</button>
-    <button class="btn">LEARN MORE</button>
+     <a href="./Views/surfLessons"> <button class="btn">BOOK NOW</button></a>
+    <a href="./Views/surfLessons"> <button class="btn">LEARN MORE</button></a>
   </div>
   </div>
   <ul>
@@ -108,7 +122,17 @@
     <li><img src="./photos/slide11.jpg" alt=""></li>
   </ul>
 </div>
+<section>
+<div class="webcam" style="margin-bottom:50px;text-align: center;/* border-radius: 50%; */">
 
+      <a href="https://www.nukumoi.com/Views/BeachWebcam"><img src="../photos/beach-cam-img.jpg" alt="Bech Webcam" style="
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px #ff9900;
+"></a>
+      
+     
+    </div>
+    </section>
    <!--finish carrusel lessons-->
     <div class="row align-center" id="row-356844962">
       <div id="col-2017702317" class="col medium-7 small-12 large-7">
@@ -130,28 +154,28 @@
           <img src="./photos/menShop/men1.jpg" alt="Producto 3" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR</h2>
-            <a href="./Views/shop#men-section" class="button">Shop Now</a>
+            <a href="https://store.nukumoi.com/mens" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/womenShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="Producto 1" />
           <div class="overlay">
             <h2 class="description">WOMENS LOGOWEAR</h2>
-            <a href="./Views/shop#women-section" class="button">Shop Now</a>
+            <a  href="https://store.nukumoi.com/womens" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/kidsShop/kids1.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">KIDS LOGOWEAR</h2>
-            <a href="./Views/shop#children-section" class="button">Shop Now</a>
+            <a href="https://store.nukumoi.com/kids" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
           <img src="./photos/hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="Producto 2" />
           <div class="overlay">
             <h2 class="description">HAT</h2>
-            <a href="./Views/shop#children-section" class="button">Shop Now</a>
+            <a href="https://store.nukumoi.com/hats-1" class="button">Shop Now</a>
           </div>
           </div>
       </div>
@@ -340,9 +364,10 @@
         </button>
       </div>
     </section>
+
     <section>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14810.295135432982!2d-159.4528656!3d21.87397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071a964bdcd715%3A0xe3c81ead6273d13d!2sNukumoi%20Surf%20Co.!5e0!3m2!1ses-419!2sar!4v1698277012523!5m2!1ses-419!2sar"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14810.295135432982!2d-159.4528656!3d21.87397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071a964bdcd715%3A0xe3c81ead6273d13d!2sNukumoi%20Surf%20Co.!5e0!3m2!1sen!2sus!4v1698277012523!5m2!1sen!2sus" 
         width="100%"
         height="450"
         style="border: 0"
@@ -391,8 +416,9 @@
           <li><a href="index">HOME</a></li>
           <li><a href="./Views/ourStory">OUR STORY</a></li>
           <li><a href="./Views/surfLessons">SURF LESSONS</a></li>
+          <li><a href="https://www.nukumoi.com/Views/BeachWebcam">LIVE CAM</a></li>
           <li><a href="./Views/beachRental">BEACH RENTAL</a></li>
-          <li><a href="./Views/shop">SHOP</a></li>
+          <li><a href="https://store.nukumoi.com/">SHOP</a></li>
         
         </ul>
       </div>

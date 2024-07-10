@@ -35,8 +35,9 @@
         <li><a href="../index">HOME</a></li>
         <li><a href="./ourStory">OUR STORY</a></li>
         <li><a href="./surfLessons">SURF LESSONS</a></li>
-        <li><a href="./beachRental">BEACH RENTAL</a></li>
-        <li><a href="./shop">SHOP</a></li>
+        <li><a href="./BeachWebcam">LIVE CAM</a></li>
+        <li><a href="./beachRental">BEACH RENTALS</a></li>
+        <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
         <img src="../photos/logosurf.jpg" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -52,8 +53,9 @@
           <li><a href="../index">HOME</a></li>
           <li><a href="./ourStory">OUR STORY</a></li>
            <li><a href="./surfLessons">SURF LESSONS</a></li>
-          <li><a href="./beachRental">BEACH RENTAL</a></li>
-          <li><a href="./shop">SHOP</a></li>
+               <li><a href="./BeachWebcam">LIVE CAM</a></li>
+          <li><a href="./beachRental">BEACH RENTALS</a></li>
+          <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
         </ul>
       </nav>
     </div>
@@ -72,7 +74,7 @@
     </div>
    
    
-      <div class='frase'>
+      <div class="text" id="text">
        <p>
             Rochelle Ballard offers an unparalleled opportunity to learn from a true surfing legend.  
             With her extensive experience as a professional surfer and deep understanding of the ocean, 
@@ -115,8 +117,8 @@
              Shared  lessons with other parties close to the shore in Sunny Poipu beach. Catch waves and make new friends! 
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511632/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div>
@@ -151,8 +153,8 @@
               family to enjoy the ocean and riding waves together! A family that surfs together stays together!
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511635/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div>
@@ -185,8 +187,8 @@
           fun, and sensitivity of young children.
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511638/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
           </div>
 
           </div>
@@ -221,8 +223,8 @@
               attention for safety, more opportunity to ride waves and progress your surfing ability .
             </p>
             <div class='buttonBL'>
-              <a href=""> Book Now</a>
-              <a href=""> Learn More</a>
+              <a href="https://fareharbor.com/embeds/book/nukumoi/items/511639/?full-items=yes&flow=1090201"> Book Now</a>
+              <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div>
@@ -256,8 +258,8 @@
             according to the swell, winds, and tide for your desired wave and ability.
             </p>
             <div class='buttonBL'>
-              <a href=""> Book Now</a>
-              <a href=""> Learn More</a>
+              <a href="https://fareharbor.com/embeds/book/nukumoi/items/511640/?full-items=yes&flow=1090201"> Book Now</a>
+              <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div>
@@ -293,8 +295,8 @@
               All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
             </p>
             <div class='buttonBL'>
-              <a href=""> Book Now</a>
-              <a href=""> Learn More</a>
+              <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+              <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div>
@@ -341,8 +343,8 @@
              Shared  lessons with other parties close to the shore in Sunny Poipu beach. Catch waves and make new friends! 
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div></div>
@@ -380,8 +382,8 @@
                   and the whole family to enjoy the ocean and riding waves together! A family that surfs together stays together!
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div>
@@ -420,8 +422,8 @@
               fun, and sensitivity of young children.
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div></div>
@@ -459,8 +461,8 @@
                more opportunity to ride waves and progress your surfing ability. 
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div></div>
@@ -499,8 +501,8 @@
               according to the swell, winds, and tide for your desired wave and ability.
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div></div>
@@ -539,8 +541,8 @@
                All levels (beginners/advance) can learn from the best technique, ocean and wave knowledge.
             </p>
             <div class='buttonBL'>
-            <a href=""> Book Now</a>
-            <a href=""> Learn More</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/511641/?full-items=yes&flow=1090201"> Book Now</a>
+            <a href="https://fareharbor.com/embeds/book/nukumoi/items/?flow=1090201&full-items=yes"> Learn More</a>
             </div>
           </div>
         </div></div>
@@ -573,6 +575,7 @@
         <h3>CONTACT INFO</h3>
         <ul>
           <li><i class="fas fa-phone"></i> 808.742.8019</li>
+ <li><i class="fa-solid fa-clock"></i> HOURS: 8am - 6pm</li>
           <li><i class="fas fa-envelope"></i>christine@nukumoi.com</li>
           <li><i class="fas fa-map-marker"></i>2080 Hoone Rd.Poipu, HI 96756 Kaua'i, Hawai'i, USA</li>
         </ul>
@@ -590,7 +593,7 @@
             <a href="https://www.instagram.com/nukumoisurf/" target="_blank"><i class="fab fa-instagram"></i></a>
           </li>
           <li>
-           <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14810.295135432982!2d-159.4528656!3d21.87397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071a964bdcd715%3A0xe3c81ead6273d13d!2sNukumoi%20Surf%20Co.!5e0!3m2!1ses-419!2sar!4v1698277012523!5m2!1ses-419!2sar" target='_blanck'><i class="fab fa-google"></i></a>
+         <a href=" https://g.co/kgs/hLXHZsf" target='_blank'><i class="fab fa-google"></i></a>
           </li>
           <li>
             <a href="https://www.facebook.com/nukumoi" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -603,9 +606,13 @@
         <li><a href="../index">HOME</a></li>
         <li><a href="./ourStory">OUR STORY</a></li>
         <li><a href="./surfLessons">SURF LESSONS</a></li>
-        <li><a href="./beachRental">BEACH RENTAL</a></li>
-        <li><a href="./shop">SHOP</a></li>
+               <li><a href="./BeachWebcam">LIVE CAM</a></li>
+        <li><a href="./beachRental">BEACH RENTALS</a></li>
+        <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
       </ul>
     </div>
   </footer>
+    <link rel="stylesheet" href="https://fh-kit.com/buttons/v2/?red=cc0000&orange=ff9900&green=3AB134" type="text/css" media="screen" />
+  <a href="https://fareharbor.com/embeds/book/nukumoi/?full-items=yes" class="fh-button-flat-orange fh-fixed--bottom fh-icon--calendar-check">Book Now</a>
+  <script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
 </html>

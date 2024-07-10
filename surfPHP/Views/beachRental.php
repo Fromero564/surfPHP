@@ -34,8 +34,9 @@
         <li><a href="../index">HOME</a></li>
         <li><a href="./ourStory">OUR STORY</a></li>
         <li><a href="./surfLessons">SURF LESSONS</a></li>
-        <li><a href="./beachRental">BEACH RENTAL</a></li>
-        <li><a href="./shop">SHOP</a></li>
+        <li><a href="./BeachWebcam">LIVE CAM</a></li>
+        <li><a href="./beachRental">BEACH RENTALS</a></li>
+        <li><a href="https://store.nukumoi.com/"  >SHOP</a></li>
         <img src="../photos/logosurf.jpg" alt="Logo" class="logo-surf2" />
       </ul>
     </nav>
@@ -51,8 +52,9 @@
           <li><a href="../index">HOME</a></li>
           <li><a href="./ourStory">OUR STORY</a></li>
            <li><a href="./surfLessons">SURF LESSONS</a></li>
-          <li><a href="./beachRental">BEACH RENTAL</a></li>
-          <li><a href="./shop">SHOP</a></li>
+                  <li><a href="./BeachWebcam">LIVE CAM</a></li>
+          <li><a href="./beachRental">BEACH RENTALS</a></li>
+          <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
         </ul>
       </nav>
     </div>
@@ -61,10 +63,16 @@
   
 <div>
   <div class='rentals'>
-<h1>BEACH RENTALS</h1>
+<h1>BEACH & SURF RENTALS</h1>
+</div>
+<div class='rentals'>
+   
+    <p class="centered-text">Nukumoi Surf shop has the best selection of beach and surf rentals in Poipu. Located right on Poipu Beach, we make renting your gear quick and convenient so you can spend more time enjoying your vacation. When you rent rather than buy beach gear, you are being environmentally friendly to our small island paradise. Help us minimize waste and travel consciously. We also have a water cooler so you can refill your water bottle right here in the shop</p>
+  
 </div>
 <section class="rental-columns">
 <div class="left-column">
+    <h2>BEACH RENTALS</h2>
     <h3>SNORKEL SET</h3>
     <p><strong>$10 day/$30 week</strong></p>
     <p>High Quality Silicone Masks, Snorkels and a Wide Range of Fin Sizes. Mesh bag and defog included.</p>
@@ -96,7 +104,7 @@
   </div>
 
   <div class="right-column">
-    
+    <h2> SURF RENTALS</h2>
     <h3>SURFBOARD RENTALS</h3> 
       <p>(Hourly/Daily(24 hrs)/Weekly)</p>
     
@@ -110,11 +118,11 @@
 
     <h3> PREMIUM PERFORMANCE BOARDS</h3>
     <p><strong>$20 hour/$60 day/$180 week</strong></p>
-    <p>For Experienced Surfers, we have an extensive range of epoxy performance boards from 5’2” to 10’</p>
+    <p>For Experienced Surfers, we have an extensive range of Channel Island Torq surfboards and Hayden Shapes/ Hypto Krypto - ranging from 5'6" to 8' . </p>
 
-    <h3>STAND-UP-PADDLE BOARDS (SUP)</h3>
+   <!-- <h3>STAND-UP-PADDLE BOARDS (SUP)</h3>
     <p><strong>$20 hour/$60 open to close/$80 24 hr day/$250 week</strong></p>
-    <p>Performance Paddle Boards complete with grip-pad, Paddle & Wheels for easy accessibility</p>
+    <p>Performance Paddle Boards complete with grip-pad, Paddle & Wheels for easy accessibility</p>-->
 
     <h3>SOFT SURFBOARD RACKS</h3>
     <p><strong>$10 flat rate with surfboard rental</strong></p>
@@ -125,9 +133,8 @@
 </section>
 <div class='rentals'>
    
-    <p class="centered-text">We don't reserve gear in advance, however we have lots of equipment so just come in early for the best selection. 
-    A credit card & ID are preferred to begin a rental account and an adult should accompany any minors. 
-    Please note: We stop receiving rental returns 30 minutes before we close!</p>
+    <p class="centered-text">We don't reserve gear in advance, however we have lots of equipment so come in early for the best selection. A credit card is required to begin a rental account and an adult should accompany any minors. Please note: Rental hours are the same as our business hours daily. We stop receiving rental returns 30 minutes before we close!
+</p>
   
 </div>
 </div>
@@ -142,6 +149,7 @@
         <h3>CONTACT INFO</h3>
         <ul>
           <li><i class="fas fa-phone"></i> 808.742.8019</li>
+          <li><i class="fa-solid fa-clock"></i> HOURS: 8am - 6pm</li>
           <li><i class="fas fa-envelope"></i>christine@nukumoi.com</li>
           <li><i class="fas fa-map-marker"></i>2080 Hoone Rd.Poipu, HI 96756 Kaua'i, Hawai'i, USA</li>
         </ul>
@@ -158,8 +166,8 @@
           <li>
             <a href="https://www.instagram.com/nukumoisurf/" target="_blank"><i class="fab fa-instagram"></i></a>
           </li>
-          <li>
-            <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14810.295135432982!2d-159.4528656!3d21.87397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071a964bdcd715%3A0xe3c81ead6273d13d!2sNukumoi%20Surf%20Co.!5e0!3m2!1ses-419!2sar!4v1698277012523!5m2!1ses-419!2sar" target='_blanck'><i class="fab fa-google"></i></a>
+      <li>
+         <a href=" https://g.co/kgs/hLXHZsf" target='_blank'><i class="fab fa-google"></i></a>
           </li>
           <li>
             <a href="https://www.facebook.com/nukumoi" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -172,9 +180,13 @@
        <li><a href="../index">HOME</a></li>
         <li><a href="./ourStory">OUR STORY</a></li>
         <li><a href="./surfLessons">SURF LESSONS</a></li>
-        <li><a href="./beachRental">BEACH RENTAL</a></li>
-        <li><a href="./shop">SHOP</a></li>
+        <li><a href="./BeachWebcam">LIVE CAM</a></li>
+        <li><a href="./beachRental">BEACH RENTALS</a></li>
+        <li><a href="https://store.nukumoi.com/" >SHOP</a></li>
       </ul>
     </div>
   </footer>
+    <link rel="stylesheet" href="https://fh-kit.com/buttons/v2/?red=cc0000&orange=ff9900&green=3AB134" type="text/css" media="screen" />
+  <a href="https://fareharbor.com/embeds/book/nukumoi/?full-items=yes" class="fh-button-flat-orange fh-fixed--bottom fh-icon--calendar-check">Book Now</a>
+  <script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
 </html>
