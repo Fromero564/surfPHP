@@ -125,6 +125,15 @@ nav {
   border-radius: 50%;
  z-index: 2; 
 }
+
+
+/*Live cam*/
+.Livecam-title{
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: orange;
+}
 /* nav con posición fija*/
 
 
@@ -249,8 +258,8 @@ nav {
 
 .promo-box h1 {
   font-family: 'Fink Sands', sans-serif;
-  font-size: 24px;
-  color: black;
+  font-size: 50px;
+  color: #FFF;
   margin-bottom: 20px;
   font-weight: bold;
   position: relative;
@@ -269,6 +278,19 @@ nav {
   transition: background-color 0.3s;
   position: relative;
   z-index:200;
+}
+.video-youtube-link{
+  padding: 2px;
+  color: #fff;
+  border: 3px #fff solid;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  bottom: -100%;
+  right: -40%;
+  z-index:250;
 }
 
 .book-now-button:hover {
@@ -1244,7 +1266,7 @@ body {
   height: 40%;
   margin-left: 16%;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
  
 
 }
@@ -1353,6 +1375,47 @@ body {
   }
 /*Responsive Media Queries*/
 @media(max-width:900px) {
+  /*Video*/
+  .video-background {
+    width: 100%;
+    height: auto; 
+    position: relative; 
+    object-fit: contain; 
+    top:-100px;
+    margin-top:-20px;
+    z-index: 0;
+  }
+.webcam{
+max-width:90% !important;
+}
+  #promoSection {
+    position: relative; 
+    height: 1vh !important;
+    overflow: hidden;
+  
+  }
+  .promo-box {
+    position: relative; 
+  }
+
+  .promo-box h1{
+    top:-300px;
+    font-size:24px;
+    color: #FFF;
+  }
+
+  .book-now-button{
+    top:-300px;
+  }
+  
+  .video-youtube-link {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    color:#000;
+    border: none;
+    text-decoration: underline;
+  }
  .description{
   display: none;
  }
@@ -1479,7 +1542,16 @@ body {
 
 
   /*collage home*/
-   .slider-frame.slider-history {
+    .slider-frame{
+    position: relative;
+    width: 100%; 
+    overflow: hidden;
+    height: 220px; 
+    margin-top: -75px;
+   }
+   
+   
+   .slider-history {
     position: relative;
   width: 100%; 
   overflow: hidden;
@@ -1573,7 +1645,7 @@ body {
   .btn {
     width: 65%; 
     padding: 5px; 
-    height: 70px; 
+    height: 40px; 
   
   font-size: 20px;
   }
@@ -1676,7 +1748,7 @@ body {
   }
 .rentals p{
   margin-top: -80px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -1709,7 +1781,7 @@ body {
  margin-left: 30px;
 }
 .button-container-class{
-  
+  display:block;
   margin-top: -27px;
 }
 
