@@ -208,84 +208,179 @@ nav {
 }
 
 /*pop-up de cookies*/
-.cookies-advice{
+/*Pop-up uno sobre otros
+/* .cookies-advice {
   display: none;
   background: #fff;
-  padding: 20px;
-  width:calc(100%-40px);
-  max-width: 300px;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: none;
   line-height: 150%;
-  border-radius: 10px;
+  border-radius: 0;
   position: fixed;
-  bottom:20px;
-  left:20px;
+  bottom: 0;
+  left: 0;
   z-index: 100;
-  padding-top:60px;
-  box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+  box-shadow: 0px -2px 20px 10px rgba(222, 222, 222, .25);
   text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
-.cookies-advice.active{
+.cookies-advice.active {
   display: block;
 }
 
-.cookies-advice .cookie{
-  max-width:100px;
-  position:absolute;
-  top:-51px;
-  left:calc(50% - 50px);
+.cookies-advice .cookie {
+  display: none; 
 }
 
 .cookies-advice .cookie-title,
-.cookies-advice .parragraph-cookie{
-  margin-bottom: 15px;
+.cookies-advice .parragraph-cookie {
+  margin-bottom: 10px;
 }
 
-.cookies-advice .button-cookie{
-  width: 100%;
+.cookies-advice .button-cookie {
+  width: auto;
   background-color: #ff9900;
-  border:none;
-  color:#fff;
+  border: none;
+  color: #fff;
   text-align: center;
-  padding: 15px 20px;
+  padding: 10px 20px;
   font-weight: 700;
   cursor: pointer;
   transition: .3s ease all;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 14px;
+  display: inline-block;
 }
 
-.cookies-advice .button-cookie:hover{
+.cookies-advice .button-cookie:hover {
   background-color: #ff7700;
 }
 
-.cookies-advice .cookie-link{
-  color:#00aaff;
+.cookies-advice .cookie-link {
+  color: #00aaff;
   text-decoration: none;
   font-size: 14px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
-.cookies-advice .cookie-link:hover{
+.cookies-advice .cookie-link:hover {
   text-decoration: underline;
 }
 
-.background-cookie-advice{
-  display:none;
-  background: rgba(0,0,0,.80);
+.background-cookie-advice {
+  display: none;
+  background: rgba(0, 0, 0, .80);
   position: fixed;
-  z-index:99;
-  width:100vw;
+  z-index: 99;
+  width: 100vw;
   height: 100vh;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
 }
 
-.background-cookie-advice.active{
+.background-cookie-advice.active {
+  display: block;
+} */
+
+.cookies-advice {
+  display: none;
+  background: #fff;
+  padding: 10px 20px;
+  width: auto;
+  max-width: 80%; /* Ajustar el ancho máximo según tus necesidades */
+  line-height: 150%;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 20px; /* Espacio desde el fondo */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  box-shadow: 0px -2px 20px 10px rgba(222, 222, 222, .25);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; /* Espacio entre los elementos */
+  flex-wrap: wrap; /* Asegura que los elementos se ajusten en pantallas más pequeñas */
+}
+
+.cookies-advice.active {
+  display: flex;
+}
+
+.cookies-advice .cookie {
+  display: none; /* Ocultar la imagen del logo para que no estorbe en el diseño de la barra */
+}
+
+.cookies-advice .cookie-title,
+.cookies-advice .parragraph-cookie {
+  margin-bottom: 0; /* Eliminar márgenes para que los elementos estén más juntos */
+  text-align: left;
+}
+
+.cookies-advice .cookie-title {
+  flex: 0 1 auto; /* No permitir que el título se expanda */
+}
+
+.cookies-advice .parragraph-cookie {
+  flex: 1 1 60%; /* Permitir que el párrafo se expanda más */
+  margin-left: 0; /* Eliminar margen */
+}
+
+.cookies-advice .button-cookie,
+.cookies-advice .cookie-link {
+  flex: 0 1 auto; /* No permitir que los botones se expandan */
+  margin: 0; /* Eliminar margen */
+}
+
+.cookies-advice .button-cookie {
+  background-color: #ff9900;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.cookies-advice .button-cookie:hover {
+  background-color: #ff7700;
+}
+
+.cookies-advice .cookie-link {
+  color: #00aaff;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.cookies-advice .cookie-link:hover {
+  text-decoration: underline;
+}
+
+.background-cookie-advice {
+  display: none;
+  background: rgba(0, 0, 0, .80);
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.background-cookie-advice.active {
   display: block;
 }
-
-
 /* Estilos para el indicador de flecha */
 
 .fa-angle-down {
