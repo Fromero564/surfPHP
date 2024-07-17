@@ -61,56 +61,56 @@
     </div>
 
   <body>
-  <p>
-  Cookie Policy
-In compliance with the provisions of Article 22.2 of Law 34/2002, of July 11, on Information Society Services and Electronic Commerce, this website informs you, in this section, about the policy on the collection and treatment of cookies.
 
-What are cookies?
-A cookie is a file that is downloaded to your computer when you access certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or their equipment and, depending on the information they contain and the way you use your equipment, they can be used to recognize the user.
+  <h1>Cookie Policy</h1>
+  <p>In compliance with the provisions of Article 22.2 of Law 34/2002, of July 11, on Information Society Services and Electronic Commerce, this website informs you, in this section, about the policy on the collection and treatment of cookies.</p>
 
-What types of cookies does this website use?
-This website uses the following types of cookies:
+<h1>What are cookies?</h1>
+<p>A cookie is a file that is downloaded to your computer when you access certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or their equipment and, depending on the information they contain and the way you use your equipment, they can be used to recognize the user.</p>
 
-Analysis Cookies:
+<h1>What types of cookies does this website use?</h1>
+<p>This website uses the following types of cookies:</p>
+
+<p><h3>Analysis Cookies:</h3>
 These are those that, either treated by us or by third parties, allow us to quantify the number of users and thus perform the measurement and statistical analysis of the use made by users of the service offered. To do this, we analyze your browsing on our website to improve the offer of products or services we offer you.
-
-Technical Cookies:
+<br>
+<h3>Technical Cookies:</h3>
 These are those that allow the user to navigate through the restricted area and use its different functions, such as, for example, carrying out the purchase process of an article.
-
-Personalization Cookies:
+<br>
+<h3>Personalization Cookies:</h3>
 These are those that allow the user to access the service with some predefined general characteristics based on a series of criteria in the user's terminal, such as the language or the type of browser through which they connect to the service.
-
-Advertising Cookies:
+<br>
+<h3>Advertising Cookies:</h3>
 These are those that, either treated by this website or by third parties, allow the most efficient management of the advertising spaces on the website, adapting the content of the advertisement to the content of the requested service or the use made of our website. For this, we can analyze your browsing habits on the Internet and we can show you advertising related to your browsing profile.
-
-Behavioral Advertising Cookies:
+<br>
+<h3>Behavioral Advertising Cookies:</h3>
 These are those that allow the management, in the most efficient way possible, of the advertising spaces that, where appropriate, the editor has included in a web page, application, or platform from which the requested service is provided. This type of cookies stores information on the behavior of visitors obtained through the continuous observation of their browsing habits, which allows developing a specific profile to show advertising based on it.
-
-Disabling cookies.
+<br>
+<h3>Disabling cookies.</h3>
 You can allow, block, or delete the cookies installed on your computer by configuring the options of the browser installed on your computer.
-
+<br>
 In most web browsers, the possibility is offered to allow, block, or delete the cookies installed on your computer.
-
+<br>
 Below you can access the configuration of the most frequent web browsers to accept, install, or disable cookies:
+<br>
+Configure cookies in Google Chrome<br>
+Configure cookies in Microsoft Internet Explorer<br>
+Configure cookies in Mozilla Firefox<br>
+Configure cookies in Safari (Apple)<br>
+Third-party cookies.<br>
+This website uses third-party services to collect information for statistical purposes and web usage. DoubleClick cookies are used to improve the advertising included on the site. They are used to target advertising based on the content that is relevant to a user, thereby improving the quality of experience in using the site.<br>
 
-Configure cookies in Google Chrome
-Configure cookies in Microsoft Internet Explorer
-Configure cookies in Mozilla Firefox
-Configure cookies in Safari (Apple)
-Third-party cookies.
-This website uses third-party services to collect information for statistical purposes and web usage. DoubleClick cookies are used to improve the advertising included on the site. They are used to target advertising based on the content that is relevant to a user, thereby improving the quality of experience in using the site.
+Specifically, we use Google Adsense and Google Analytics services for our statistics and advertising. Some cookies are essential for the operation of the site, for example, the built-in search engine.<br>
 
-Specifically, we use Google Adsense and Google Analytics services for our statistics and advertising. Some cookies are essential for the operation of the site, for example, the built-in search engine.
+Our site includes other functionalities provided by third parties. You can easily share the content on social networks like Facebook, Twitter, or Google+, with the buttons we have included for this purpose.<br>
 
-Our site includes other functionalities provided by third parties. You can easily share the content on social networks like Facebook, Twitter, or Google+, with the buttons we have included for this purpose.
+Warning about deleting cookies.<br>
+You can delete and block all cookies from this site, but part of the site will not work, or the quality of the web page may be affected.<br>
 
-Warning about deleting cookies.
-You can delete and block all cookies from this site, but part of the site will not work, or the quality of the web page may be affected.
-
-If you have any questions about our cookie policy, you can contact this website through our Contact channels.
+If you have any questions about our cookie policy, you can contact this website through our Contact channels.</p>
 
 
-  </p>
+
   </body>
   <footer class="footer">
    <div class="column1">

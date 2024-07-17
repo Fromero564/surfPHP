@@ -570,6 +570,21 @@
         </button>
       </div>
     </section>
+
+
+    <div class="cookies-advice" id="cookies-advice">
+     <img class="cookie" src=".././photos/logo.png" alt="logo-cookie">
+     <h3 class="cookie-title">Nukumoi</h3>
+     <p class="parragraph-cookie">We use our own and third-party cookies to obtain statistical data on the browsing habits of our users and to improve our services. If you accept or continue browsing, we consider that you accept their use. </p>
+     <button class="button-cookie" id="btn-accept-cookies">I Agree</button>
+     <a class="cookie-link" href="./MoreInformation">More information</a>
+  </div>
+
+  <div class="background-cookie-advice" id="background-cookie-advice"></div>
+  <script src="../JS/cookie-advice.js"></script>
+
+
+
   </body>
   <footer class="footer">
     <div class="column1">
