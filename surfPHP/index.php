@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Explore Nukumoi, your ultimate surf destination in Hawaii. Discover stunning 
+   waves, surf lessons, local tips, and the vibrant culture of Hawaiian surfing. Join us for an unforgettable 
+   adventure on the islands!">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -39,8 +43,6 @@
 }
 }
 </style>
-
-
   </head>
 
   <body>
@@ -115,13 +117,13 @@
   <ul>
     <li><img src="./photos/slide1.jpg" alt=""></li>
      <li class="special-image"><img src="./photos/slide2.jpg" alt=""></li>
-    <li><img src="./photos/slide3.jpg" alt=""></li>
-    <li><img src="./photos/slide6.jpg" alt=""></li>
-    <li><img src="./photos/slide7.jpg" alt=""></li>
-    <li><img src="./photos/slide8.jpg" alt=""></li>
-    <li><img src="./photos/slide9.jpg" alt=""></li>
-    <li><img src="./photos/slide10.jpg" alt=""></li>
-    <li><img src="./photos/slide11.jpg" alt=""></li>
+    <li><img src="./photos/slide3.jpg" alt="Surf Lessons"></li>
+    <li><img src="./photos/slide6.jpg" alt="Guide Surf"></li>
+    <li><img src="./photos/slide7.jpg" alt="Surf Experience"></li>
+    <li><img src="./photos/slide8.jpg" alt="Poipu Beach"></li>
+    <li><img src="./photos/slide9.jpg" alt="Guide Surf experiences"></li>
+    <li><img src="./photos/slide10.jpg" alt="Beach"></li>
+    <li><img src="./photos/slide11.jpg" alt="Surf"></li>
   </ul>
 </div>
 <section>
@@ -186,7 +188,7 @@
           <div class="photo">
           <img src="./photos/menShop/men1.jpg" alt="Producto 2" />
           <div class="overlay">
-            <a href="./Views/shop" class="button">Shop Now</a>
+            <a a href="https://store.nukumoi.com/" class="button">Shop Now</a>
           </div>
           </div>
     </section>
