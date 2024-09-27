@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Explore Nukumoi, your ultimate surf destination in Hawaii. Discover stunning 
-   waves, surf lessons, local tips, and the vibrant culture of Hawaiian surfing. Join us for an unforgettable 
-   adventure on the islands!">
-
+    <meta name="description" content="Discover Nukumoi, your premier surf destination in Hawaii. Enjoy stunning waves, surf lessons, and local tips for an unforgettable island adventure!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -115,15 +112,15 @@
   </div>
   </div>
   <ul>
-    <li><img src="./photos/slide1.jpg" alt=""></li>
-     <li class="special-image"><img src="./photos/slide2.jpg" alt=""></li>
-    <li><img src="./photos/slide3.jpg" alt="Surf Lessons"></li>
-    <li><img src="./photos/slide6.jpg" alt="Guide Surf"></li>
-    <li><img src="./photos/slide7.jpg" alt="Surf Experience"></li>
-    <li><img src="./photos/slide8.jpg" alt="Poipu Beach"></li>
-    <li><img src="./photos/slide9.jpg" alt="Guide Surf experiences"></li>
-    <li><img src="./photos/slide10.jpg" alt="Beach"></li>
-    <li><img src="./photos/slide11.jpg" alt="Surf"></li>
+    <li><img src="./photos/Slidehome/slide1.jpg" alt="Guide Surf Lessons"></li>
+     <li class="special-image"><img src="./photos/Slidehome/slide2.jpg" alt="Hawaii"></li>
+    <li><img src="./photos/Slidehome/slide3.jpg" alt="Surf Lessons"></li>
+    <li><img src="./photos/Slidehome/slide6.jpg" alt="Guide Surf"></li>
+    <li><img src="./photos/Slidehome/slide7.jpg" alt="Surf Experience"></li>
+    <li><img src="./photos/Slidehome/slide8.jpg" alt="Poipu Beach"></li>
+    <li><img src="./photos/Slidehome/slide9.jpg" alt="Guide Surf experiences"></li>
+    <li><img src="./photos/Slidehome/slide10.jpg" alt="Beach"></li>
+    <li><img src="./photos/Slidehome/slide11.jpg" alt="Surf"></li>
   </ul>
 </div>
 <section>
@@ -155,28 +152,28 @@
     <section>
       <div class="photo-container">
         <div class="photo">
-          <img src="./photos/menShop/men1.jpg" alt="Producto 3" />
+          <img src="./photos/menShop/men1.jpg" alt="men´s store" />
           <div class="overlay">
             <h2 class="description">MENS LOGOWEAR</h2>
             <a href="https://store.nukumoi.com/mens" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos/womenShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="Producto 1" />
+          <img src="./photos/womenShop/Only Pono Vibes Cropped Tee - Agave(1).jpg" alt="women´s store" />
           <div class="overlay">
             <h2 class="description">WOMENS LOGOWEAR</h2>
             <a  href="https://store.nukumoi.com/womens" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos/kidsShop/kids1.jpg" alt="Producto 2" />
+          <img src="./photos/kidsShop/kids1.jpg" alt="children´s store" />
           <div class="overlay">
             <h2 class="description">KIDS LOGOWEAR</h2>
             <a href="https://store.nukumoi.com/kids" class="button">Shop Now</a>
           </div>
         </div>
         <div class="photo">
-          <img src="./photos/hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="Producto 2" />
+          <img src="./photos/hatsShop/Aloha Patch Hat - Floral Print.jpg" alt="hat´s store" />
           <div class="overlay">
             <h2 class="description">HAT</h2>
             <a href="https://store.nukumoi.com/hats-1" class="button">Shop Now</a>
@@ -186,7 +183,7 @@
 
       <div class="shop-responsive">
           <div class="photo">
-          <img src="./photos/menShop/men1.jpg" alt="Producto 2" />
+          <img src="./photos/menShop/men1.jpg" alt="Nukumoi´s store" />
           <div class="overlay">
             <a a href="https://store.nukumoi.com/" class="button">Shop Now</a>
           </div>
@@ -214,7 +211,7 @@
          </div>
       </h3>
   </div>
-  <img src="./photos/ourStoryHome.jpeg" alt="">
+  <img src="./photos/Ourstory/ourStoryHome.jpg" alt="Our Story">
 </div>
   </div>
 </div>

@@ -63,7 +63,7 @@
 
 
 <div class='ourHistoryImage'>
-<img src="../photos/ourStoryHome.jpeg" alt="">
+<img src="../photos/Ourstory/ourStoryHome.jpg" alt="Our Story">
 
 </div>
 
